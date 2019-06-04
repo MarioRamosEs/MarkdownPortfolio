@@ -1,29 +1,40 @@
 <template>
-  <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">{{ $page.post.title }}</h1>
+  <div>
+    <Layout style="z-index:99; position: relative">
+      <div class="post-title">
+        <h1 class="post-title__text">{{ $page.post.title }}</h1>
 
-      <PostMeta :post="$page.post"/>
-    </div>
-
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage"/>
+        <PostMeta :post="$page.post"/>
       </div>
 
-      <div class="post__content" v-html="$page.post.content"/>
+      <div class="post content-box">
+        <div class="post__header">
+          <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage"/>
+        </div>
 
-      <div class="post__footer">
-        <PostTags :post="$page.post"/>
+        <div class="post__content" v-html="$page.post.content"/>
+
+        <div class="post__footer">
+          <PostTags :post="$page.post"/>
+        </div>
       </div>
-    </div>
 
-    <div class="post-comments">
-      <!-- Add comment widgets here -->
-    </div>
+      <div class="post-comments">
+        <!-- Add comment widgets here -->
+      </div>
 
-    <Author class="post-author" v-if="false"/>
-  </Layout>
+      <Author class="post-author" v-if="false"/>
+    </Layout>
+
+    <vue-particles
+      style="position: fixed;
+        top: 0;
+        width: 100%"
+      color="#fff"
+      class="container"
+      moveSpeed="2"
+    ></vue-particles>
+  </div>
 </template>
 
 <script>
