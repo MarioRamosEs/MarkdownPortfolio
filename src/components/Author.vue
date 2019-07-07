@@ -1,14 +1,14 @@
 <template>
   <div class="author">
-    <g-image alt="Author image" class="author__image" src="~/assets/images/author2.jpg"/>
+    <g-image alt="Author image" class="author__image" src="~/assets/images/author2.jpg" />
 
     <h1 v-if="showTitle" class="author__site-title">{{ $static.metaData.siteName }}</h1>
 
     <p class="author__intro">FullStack Developer</p>
 
     <p class="author__links">
-      <a href="//twitter.com/gridsome">Follow on Twitter</a>
-      <a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+      <a href="https://github.com/MarioRamosEs">GitHub</a>
+      <a href="http://marioramos.es/DATA/CV_MarioRamos_2018.pdf">CV</a>
     </p>
   </div>
 </template>
