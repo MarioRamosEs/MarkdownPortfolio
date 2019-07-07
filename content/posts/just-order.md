@@ -1,6 +1,6 @@
 ---
 title: Just Order
-date: 2019-01-07
+date: 2019-02-07
 published: true
 tags: ["App", "Proyecto de Estudiante"]
 series: false
