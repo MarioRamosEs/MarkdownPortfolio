@@ -8,7 +8,7 @@
 
     <p class="author__links">
       <a href="https://github.com/MarioRamosEs">GitHub</a>
-      <a href="http://marioramos.es/DATA/CV_MarioRamos_2018.pdf">CV</a>
+      <a href="http://marioramos.es/DATA/CV_MarioRamos.pdf">CV 2019</a>
     </p>
   </div>
 </template>
