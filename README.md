@@ -8,4 +8,5 @@
 
 ### 3. Deploy
 
-`gridsome build`
+- Local build `gridsome build`
+- Zeit build `now --prod`
