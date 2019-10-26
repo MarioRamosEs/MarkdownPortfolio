@@ -4,18 +4,18 @@
       <div class="post-title">
         <h1 class="post-title__text">{{ $page.post.title }}</h1>
 
-        <PostMeta :post="$page.post"/>
+        <PostMeta :post="$page.post" />
       </div>
 
       <div class="post content-box">
         <div class="post__header">
-          <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage"/>
+          <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
         </div>
 
-        <div class="post__content" v-html="$page.post.content"/>
+        <div class="post__content" v-html="$page.post.content" />
 
         <div class="post__footer">
-          <PostTags :post="$page.post"/>
+          <PostTags :post="$page.post" />
         </div>
       </div>
 
@@ -23,7 +23,7 @@
         <!-- Add comment widgets here -->
       </div>
 
-      <Author class="post-author" v-if="false"/>
+      <Author class="post-author" v-if="false" />
     </Layout>
 
     <vue-particles
@@ -116,10 +116,11 @@ query Post ($path: String!) {
     }
 
     img {
-      width: calc(100% + var(--space) * 2);
+      //width: calc(100% + var(--space) * 2);
       margin-left: calc(var(--space) * -1);
       display: block;
-      max-width: none;
+      max-width: calc(100% + var(--space) * 2);
+      min-width: none;
     }
   }
 }

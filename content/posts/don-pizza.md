@@ -4,7 +4,7 @@ date: 2019-06-26
 published: true
 tags: ["App", "Proyecto Laboral", "React Native"]
 series: false
-cover_image: ./images/DonPizza/header.jpg
+cover_image: ./images/DonPizzaHeader.jpg
 canonical_url: false
 description: "Aplicación multiplataforma para DonPizza para que sus clientes puedan realizar pedidos. Enlace con A3ERP."
 ---
@@ -17,10 +17,14 @@ Don Pizza Orders permite a sus clientes:
 
 Aplicación realizada con [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) y [Native Base](https://nativebase.io/)
 
+[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.donpizza)
+
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 
-![Don Pizza Image](<./images/DonPizza/(1).png>)
-![Don Pizza Image](<./images/DonPizza/(2).png>)
-![Don Pizza Image](<./images/DonPizza/(3).png>)
-![Don Pizza Image](<./images/DonPizza/(4).png>)
-![Don Pizza Image](<./images/DonPizza/(5).png>)
+<div align="center">
+  <img style="width: 100%; max-width: 400px;" src="./images/DonPizza/(1).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/DonPizza/(2).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/DonPizza/(3).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/DonPizza/(4).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/DonPizza/(5).png">
+</div>
