@@ -1,8 +1,15 @@
 <template>
   <div class="author">
-    <g-image alt="Author image" class="author__image" src="~/assets/images/author2.jpg" />
+    <g-image
+      alt="Author image"
+      class="author__image"
+      src="~/assets/images/author2.jpg"
+      width="180"
+      height="180"
+      blur="5"
+    />
 
-    <h1 v-if="showTitle" class="author__site-title">{{ $static.metaData.siteName }}</h1>
+    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
 
     <p class="author__intro">FullStack Developer</p>
 
@@ -15,7 +22,7 @@
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }
@@ -36,7 +43,7 @@ export default {
 
   &__image {
     border-radius: 100%;
-    width: 150px;
+    width: 159px;
     height: 150px;
     margin-bottom: 1em;
   }
