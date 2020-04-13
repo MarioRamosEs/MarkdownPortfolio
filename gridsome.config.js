@@ -4,20 +4,13 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const nodeExternals = require("webpack-node-externals");
-
 module.exports = {
   siteName: "Mario Ramos Portfolio",
   siteDescription: "FullStack Developer",
 
-  chainWebpack(config, { isServer }) {
-    if (isServer) {
-      config.externals(
-        nodeExternals({
-          whitelist: [/\.css$/, /\?vue&type=style/, /^vue-particles/]
-        })
-      );
-    }
+  templates: {
+    Post: "/:title",
+    Tag: "/tag/:id"
   },
 
   plugins: [
@@ -27,12 +20,10 @@ module.exports = {
       options: {
         typeName: "Post",
         path: "content/posts/*.md",
-        route: "/:slug",
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            route: "/tag/:id",
             create: true
           }
         }

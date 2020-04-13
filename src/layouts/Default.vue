@@ -2,20 +2,20 @@
   <div id="app">
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo"/>
+        <Logo v-if="showLogo" />
       </div>
 
       <div class="header__right">
-        <ToggleTheme v-if="false"/>
+        <ToggleTheme />
       </div>
     </header>
 
     <main class="main">
-      <slot/>
+      <slot />
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright" v-if="false">Copyright © {{ new Date().getFullYear() }}</span>
+      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
     </footer>
   </div>
 </template>
