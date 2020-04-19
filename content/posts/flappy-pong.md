@@ -15,3 +15,9 @@ Juega para conseguir la mayor puntuación. Supera tu récord esquivando obstácu
 ¿Conseguirás tener la puntuación más alta?
 
 [Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.marioramos.neoflappypong&hl=es_419)
+
+<div align="center">
+  <img style="width: 100%; max-width: 400px;" src="../images/flappypong/(1).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/flappypong/(2).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/flappypong/(3).png">
+</div>

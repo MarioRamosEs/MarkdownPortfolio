@@ -22,7 +22,7 @@ Aplicación realizada con [React Native](https://facebook.github.io/react-native
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 
 <div align="center">
-  <img style="width: 100%; max-width: 400px;" src="./images/donpizza/(1).png">
+  <img style="width: 100%; max-width: 400px;" src="../images/donpizza/(1).png">
   <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/donpizza/(2).png">
   <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/donpizza/(3).png">
   <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/donpizza/(4).png">

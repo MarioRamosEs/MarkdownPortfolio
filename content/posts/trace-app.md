@@ -25,7 +25,7 @@ Aplicación realizada con [React Native](https://facebook.github.io/react-native
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 
 <div align="center">
-  <img style="width: 100%; max-width: 400px;" src="./images/trace/Android (3).png">
+  <img style="width: 100%; max-width: 400px;" src="../images/trace/Android (3).png">
   <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (2).png">
   <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (1).png">
   <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (4).png">
