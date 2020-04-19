@@ -9,6 +9,9 @@ canonical_url: false
 description: "Neo Flappy Pong es un juego frenético con estética neón, con una jugabilidad fácil de aprender pero difícil de dominar"
 ---
 
-[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.marioramos.neoflappypong&hl=es_419)
+Proyecto en Unity para [Space Taco Studio](https://spacetaco.studio), en colaboración con [Oscar Villalobos](https://ovillalobos.es/)
 
-Proyecto para [Space Taco Studio](https://spacetaco.studio), en colaboración con [Oscar Villalobos](https://ovillalobos.es/)
+Juega para conseguir la mayor puntuación. Supera tu récord esquivando obstáculos y enemigos que aparecen en pantalla y utiliza tanto potenciadores cómo habilidades para superar cualquier obstáculo.
+¿Conseguirás tener la puntuación más alta?
+
+[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.marioramos.neoflappypong&hl=es_419)

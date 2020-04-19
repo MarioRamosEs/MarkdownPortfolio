@@ -20,8 +20,8 @@ Just Order es una plataforma para el sector de la restauración que permite, al 
 Todo ello con la ayuda de un QR generado de forma dinámica en cada mesa.
 
 <div align="center">
-  <img style="width: 100%; max-width: 400px;"                    src="./images/justorder/(10).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/justorder/(11).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/justorder/(12).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/justorder/(5).png ">
+  <img style="width: 100%; max-width: 400px;"                    src="../images/justorder/(10).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/justorder/(11).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/justorder/(12).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/justorder/(5).png ">
 </div>

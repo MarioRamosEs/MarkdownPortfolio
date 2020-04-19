@@ -13,4 +13,4 @@ Juego estilo Asteroids hecho en Unity para Android. Basado en un tutorial, pero 
 
 [Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.MarioRamos.AsteroidsShooterUltra)
 
-![Asteroids Shooter Ultra Image](<./images/(2).jpg>)
+![Asteroids Shooter Ultra Image](<../images/(2).jpg>)

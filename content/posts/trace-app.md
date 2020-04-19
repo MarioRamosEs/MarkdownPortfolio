@@ -26,11 +26,11 @@ Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 
 <div align="center">
   <img style="width: 100%; max-width: 400px;" src="./images/trace/Android (3).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Android (2).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Android (1).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Android (4).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Android (5).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Ios (1).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Ios (2).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="./images/trace/Ios (3).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (2).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (1).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (4).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Android (5).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Ios (1).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Ios (2).png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/trace/Ios (3).png">
 </div>
