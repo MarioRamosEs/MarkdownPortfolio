@@ -1,6 +1,6 @@
 <template>
   <div class="categories">
-    <h2>Porfolio</h2>
+    <h2>Portfolio</h2>
     <a href="tag/App/"><button class="glow-on-hover" type="button">Apps</button></a>
     <a href="tag/Web/"><button class="glow-on-hover" type="button">Web</button></a>
     <a href="tag/Juego/"><button class="glow-on-hover" type="button">Juegos</button></a>
