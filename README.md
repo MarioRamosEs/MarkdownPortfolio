@@ -6,5 +6,5 @@
    gridsome develop
 
 3. Deploy
-   Local build gridsome build
+   Local build -> gridsome build
    Zeit build now --prod or commit in Master

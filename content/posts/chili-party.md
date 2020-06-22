@@ -23,7 +23,7 @@ Puedes jugar en dos variedades:
 
 👌🏻 Una app que no debería faltar en tu dispositivo en las noches de borrachera, ligoteo y fiesta👌🏻
 
-[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.marioramos.neoflappypong&hl=es_419)
+[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.marioramos.chilliparty)
 
 <div align="center">
   <img style="width: 100%; max-width: 400px;" src="../images/chiliparty/(1).png">
