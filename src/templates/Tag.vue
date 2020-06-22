@@ -19,6 +19,7 @@ query Tag ($id: ID!) {
             title
             path
             date (format: "D. MMMM YYYY")
+            cover_image (width: 770, height: 380, blur: 10)
             timeToRead
             description
             content
@@ -37,14 +38,12 @@ import PostCard from "~/components/PostCard.vue";
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
   },
   metaInfo: {
-    title: "Tags"
-  }
+    title: "Tags",
+  },
 };
 </script>
 
-<style lang="scss">
-</style>
-
+<style lang="scss"></style>

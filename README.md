@@ -2,7 +2,8 @@
    npm install --global @gridsome/cli
 
 2. Develop
-   gridsome develop to start local dev server at http://localhost:8080
+   npm install
+   gridsome develop
 
 3. Deploy
    Local build gridsome build

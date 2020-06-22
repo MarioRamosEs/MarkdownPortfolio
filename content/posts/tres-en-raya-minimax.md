@@ -2,7 +2,7 @@
 title: Tres en raya Minimax
 date: 2019-01-07
 published: true
-tags: ["Juego", "Proyecto de Estudiante"]
+tags: ["I+D", "Proyecto de Estudiante"]
 series: false
 cover_image: ./images/(6).png
 canonical_url: false

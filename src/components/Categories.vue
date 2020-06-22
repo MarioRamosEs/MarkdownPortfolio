@@ -1,23 +1,12 @@
 <template>
-  <div class="author">
-    <g-image alt="Author image" class="author__image" src="~/assets/images/author2.jpg" width="180" height="180" blur="5" />
-
-    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
-
-    <p class="author__intro">FullStack Developer</p>
-
-    <a target="_blank" href="https://github.com/MarioRamosEs"><button class="glow-on-hover" type="button">GitHub</button></a>
-    <a target="_blank" href="CV_MarioRamos.pdf"><button class="glow-on-hover" type="button">CV 2019</button></a>
+  <div class="categories">
+    <h2>Porfolio</h2>
+    <a href="tag/App/"><button class="glow-on-hover" type="button">Apps</button></a>
+    <a href="tag/Web/"><button class="glow-on-hover" type="button">Web</button></a>
+    <a href="tag/Juego/"><button class="glow-on-hover" type="button">Juegos</button></a>
+    <a href="tag/I+D/"><button class="glow-on-hover" type="button">I+D</button></a>
   </div>
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <script>
 export default {
@@ -26,12 +15,11 @@ export default {
 </script>
 
 <style lang="scss">
-.author {
+.categories {
   margin: 0 auto;
   max-width: 500px;
   text-align: center;
   padding: calc(var(--space) / 2) 0;
-  padding-bottom: 0px;
 
   &__image {
     border-radius: 100%;
@@ -46,7 +34,6 @@ export default {
 
   &__site-title {
     font-size: 1.5em;
-    margin-bottom: 0em;
   }
 
   &__links {
@@ -90,6 +77,10 @@ export default {
 
 .glow-on-hover:active {
   color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
 }
 
 .glow-on-hover:hover:before {

@@ -2,7 +2,7 @@
 title: Horse Wars
 date: 2019-01-06
 published: true
-tags: ["Juego", "Proyecto personal"]
+tags: ["I+D", "Proyecto personal"]
 series: false
 cover_image: ./images/(9).png
 canonical_url: false

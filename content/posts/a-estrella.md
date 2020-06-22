@@ -2,7 +2,7 @@
 title: A* con heurística simple
 date: 2019-01-08
 published: true
-tags: ["Juego", "Proyecto de Estudiante"]
+tags: ["I+D", "Proyecto de Estudiante"]
 series: false
 cover_image: ./images/(8).png
 canonical_url: false

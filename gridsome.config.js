@@ -5,12 +5,12 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Mario Ramos Portfolio",
+  siteName: "Mario Ramos",
   siteDescription: "FullStack Developer",
 
   templates: {
     Post: "/:title",
-    Tag: "/tag/:id"
+    Tag: "/tag/:id",
   },
 
   plugins: [
@@ -24,11 +24,11 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            create: true
-          }
-        }
-      }
-    }
+            create: true,
+          },
+        },
+      },
+    },
   ],
 
   transformers: {
@@ -37,7 +37,7 @@ module.exports = {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       anchorClassName: "icon icon-link",
-      plugins: ["@gridsome/remark-prismjs"]
-    }
-  }
+      plugins: ["@gridsome/remark-prismjs"],
+    },
+  },
 };

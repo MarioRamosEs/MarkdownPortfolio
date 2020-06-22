@@ -5,7 +5,7 @@
         <Logo v-if="showLogo" />
       </div>
 
-      <div class="header__right">
+      <div class="header__right" v-if="false">
         <ToggleTheme />
       </div>
     </header>
@@ -26,12 +26,12 @@ import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
-    showLogo: { default: true }
+    showLogo: { default: true },
   },
   components: {
     Logo,
-    ToggleTheme
-  }
+    ToggleTheme,
+  },
 };
 </script>
 
@@ -60,7 +60,7 @@ export default {
 
 .main {
   margin: 0 auto;
-  padding: 1.5vw 15px 0;
+  padding: 0.5vw 15px 0;
 }
 
 .footer {
