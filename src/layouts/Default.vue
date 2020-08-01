@@ -6,7 +6,7 @@
       </div>
 
       <div class="header__right">
-        <ToggleTheme />
+        <ToggleTheme v-if="false" />
       </div>
     </header>
 
