@@ -1,7 +1,12 @@
 <template>
   <div class="post-card content-box" :class="{ 'post-card--has-poster': post.poster }">
     <div class="post-card__header">
-      <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+      <g-image
+        alt="Cover image"
+        v-if="post.cover_image"
+        class="post-card__image"
+        :src="post.cover_image"
+      />
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
@@ -32,6 +37,7 @@ export default {
 .post-card {
   margin-bottom: var(--space);
   position: relative;
+  max-width: 800px;
 
   &__header {
     margin-left: calc(var(--space) * -1);

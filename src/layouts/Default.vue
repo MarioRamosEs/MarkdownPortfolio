@@ -14,7 +14,7 @@
       <slot />
     </main>
 
-    <footer class="footer">
+    <footer class="footer" v-if="false">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
     </footer>
   </div>
@@ -41,7 +41,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   min-height: var(--header-height);
-  padding: 0 calc(var(--space) / 2);
+  padding: 0 calc(var(--space) / 4);
   top: 0;
   z-index: 10;
 

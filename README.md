@@ -2,6 +2,7 @@
    npm install --global @gridsome/cli
 
 2. Develop
+   source ~/.bash_profile
    npm install
    gridsome develop
 

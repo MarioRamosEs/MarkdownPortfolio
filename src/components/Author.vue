@@ -1,13 +1,24 @@
 <template>
   <div class="author">
-    <g-image alt="Author image" class="author__image" src="~/assets/images/author2.jpg" width="180" height="180" blur="5" />
+    <g-image
+      alt="Author image"
+      class="author__image"
+      src="~/assets/images/author2.jpg"
+      width="180"
+      height="180"
+      blur="5"
+    />
 
     <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
 
     <p class="author__intro">FullStack Developer</p>
 
-    <a target="_blank" href="https://github.com/MarioRamosEs"><button class="glow-on-hover" type="button">GitHub</button></a>
-    <a target="_blank" href="CV_MarioRamos.pdf"><button class="glow-on-hover" type="button">CV 2019</button></a>
+    <a target="_blank" href="https://github.com/MarioRamosEs">
+      <button class="glow-on-hover" type="button">GitHub</button>
+    </a>
+    <a target="_blank" href="CV_MarioRamos.pdf">
+      <button class="glow-on-hover" type="button">CV 2019</button>
+    </a>
   </div>
 </template>
 
@@ -32,6 +43,7 @@ export default {
   text-align: center;
   padding: calc(var(--space) / 2) 0;
   padding-bottom: 0px;
+  padding-top: 0px;
 
   &__image {
     border-radius: 100%;
@@ -73,7 +85,18 @@ export default {
 
 .glow-on-hover:before {
   content: "";
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
   position: absolute;
   top: -2px;
   left: -2px;
