@@ -1,26 +1,26 @@
 ---
-title: Portal Web Szendex
+title: Szendex Web Portal
 date: 2019-06-30
 published: true
-tags: ["Web", "Proyecto Laboral", "Vue"]
+tags: ["Web", "Labor Project", "Vue"]
 series: false
 cover_image: ./images/SzendexHeader.jpg
 canonical_url: false
-description: "Portal web para Szendex enfocado a sus clientes B2B"
+description: "Web portal for Szendex focused on your B2B customers"
 ---
 
-La zona clientes de Szendex permite:
+The Szendex client area allows:
 
-- Buscar, filtrar y gestionar servicios de reparto
-- Visualizar el tracking
-- Carga/Descarga masiva de servicios
-- Generación de manifiestos
-- Búsqueda ágil de direcciones (autocompletado con CP o Ciudad)
-- Crear nuevos servicios de reparto
-- Crear y gestionar direcciones habituales
-- Consultar documentación específica para el cliente
+- Search, filter and manage delivery services
+- Display the tracking
+- Massive upload / download of services
+- Generation of manifests
+- Agile search of addresses (autocomplete with CP or City)
+- Create new delivery services
+- Create and manage common addresses
+- Consult specific documentation for the client
 
-Aplicación realizada con [Vue](https://vuejs.org/), con backend en [ASP.NET](https://dotnet.microsoft.com/apps/aspnet/apis)
+Application made with [Vue](https://vuejs.org/), with backend in [ASP.NET](https://dotnet.microsoft.com/apps/aspnet/apis)
 
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 

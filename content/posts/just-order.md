@@ -2,22 +2,22 @@
 title: Just Order
 date: 2019-02-07
 published: true
-tags: ["App", "Proyecto de Estudiante"]
+tags: ["App", "Student Project"]
 series: false
 cover_image: ./images/(2).png
 canonical_url: false
-description: "Proyecto de final de grado del CFGS de Desarrollo de Aplicaciones Multiplataforma. Consiste en una plataforma para el sector de la restauración que permite una mayor integración con el cliente final. Just Order es tu mejor camarero. "
+description: "Final degree project of the CFGS for Multiplatform Applications Development. It consists of a platform for the catering sector that allows greater integration with the end customer. Just Order is your best waiter"
 ---
 
-Just Order es una plataforma para el sector de la restauración que permite, al cliente de un restaurante/bar realizar las siguientes acciones con su SmartPhone
+Just Order is a platform for the restaurant sector that allows the customer of a restaurant / bar to carry out the following actions with their SmartPhone
 
-- Identificar la mesa en el establecimiento
-- Consultar la carta, realizar pedidos (conjuntos o individuales)
-- Realizar pagos (totales o parciales)
-- Valorar los artículos
-- Mucho más.
+- Identify the table in the establishment
+- Consult the menu, make orders (joint or individual)
+- Make payments (total or partial)
+- Rate the articles
+- Much more.
 
-Todo ello con la ayuda de un QR generado de forma dinámica en cada mesa.
+All this with the help of a dynamically generated QR on each table.
 
 <div align="center">
   <img style="width: 100%; max-width: 400px;"                    src="../images/justorder/(10).png">

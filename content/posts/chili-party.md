@@ -2,28 +2,28 @@
 title: Chili Party
 date: 2020-04-11
 published: true
-tags: ["Juego", "Proyecto personal", "React Native"]
+tags: ["Game", "Personal project", "React Native"]
 series: false
 cover_image: ./images/ChiliPartyHeader.jpg
 canonical_url: false
-description: "Juego de beber para varios jugadores, en el cual puedes establecer relaciones"
+description: "Multiplayer drinking game, in which you can establish relationships"
 ---
 
-Aplicación realizada con [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) y [Native Base](https://nativebase.io/)
+Application made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
-🍹La mejor aplicación de retos y preguntas picantes para beber en grupo 🍹
+🍹The best application of challenges and spicy questions to drink in group 🍹
 
-💕 Establece relaciones entre los participantes para que salgan retos mas 'chili' entre ellos 💕
+💕 Establish relationships between the participants so that more 'chili' challenges arise between them 💕
 
-Puedes jugar en dos variedades:
+You can play in two varieties:
 
-🍺 MODO BAR: Acota los retos picantes para sitios públicos 🍺
+BAR BAR MODE: Limit the spicy challenges for public places 🍺
 
-😳 MODO CASA: Da rienda suelta a la noche y preparaos para los retos más calientes y atrevidos 😳
+😳 HOME MODE: Unleash the night and prepare for the hottest and most daring challenges 😳
 
-👌🏻 Una app que no debería faltar en tu dispositivo en las noches de borrachera, ligoteo y fiesta👌🏻
+👌🏻 An app that should not be missing on your device on drunken nights, flirting and partying👌🏻
 
-[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.marioramos.chilliparty)
+[Download at Play Store](https://play.google.com/store/apps/details?id=com.marioramos.chilliparty)
 
 <div align="center">
   <img style="width: 100%; max-width: 400px;" src="../images/chiliparty/(1).png">

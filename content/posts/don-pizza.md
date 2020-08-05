@@ -2,22 +2,22 @@
 title: Don Pizza Orders
 date: 2019-06-26
 published: true
-tags: ["App", "Proyecto Laboral", "React Native"]
+tags: ["App", "Labor Project", "React Native"]
 series: false
 cover_image: ./images/DonPizzaHeader.jpg
 canonical_url: false
-description: "Aplicación multiplataforma para DonPizza para que sus clientes puedan realizar pedidos. Enlace con A3ERP."
+description: "Multi-platform application for DonPizza so that its customers can place orders. Linked with A3ERP"
 ---
 
-Don Pizza Orders permite a sus clientes:
+Don Pizza Orders allows its clients to:
 
-- Consultar la carta, realizar pedidos y consultar su seguimiento
-- Consultar histórico de pedidos y artículos más pedidos
-- Acceso especial para distribuidores
+- Consult the menu, place orders and check their follow-up
+- Consult order history and most requested items
+- Special access for distributors
 
-Aplicación realizada con [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) y [Native Base](https://nativebase.io/)
+Application made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io /)
 
-[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.donpizza)
+[Download at Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.donpizza)
 
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 

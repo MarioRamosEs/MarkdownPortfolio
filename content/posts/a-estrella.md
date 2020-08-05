@@ -1,22 +1,22 @@
 ---
-title: A* con heurística simple
+title: A* algorithm with simple heuristics
 date: 2019-01-08
 published: true
-tags: ["I+D", "Proyecto de Estudiante"]
+tags: ["I+D", "Student Project"]
 series: false
 cover_image: ./images/(8).png
 canonical_url: false
-description: "Implementación del algoritmo de búsqueda de caminos A* con heurística simple."
+description: "Implementation of the A* path search algorithm with simple heuristics"
 ---
 
-Implementación del algoritmo de búsqueda de caminos A\* con heurística simple.
+Implementation of the path search algorithm A \ \* with simple heuristics.
 
-Aplicativo extraído del trabajo final realizado durante segundo de bachillerato, en el que estudie y realicé los casos mas simples de IA aplicada a videojuegos. Ins Miquel Biada, Mataró.
+Application taken from the final work done during the second year of high school, in which I studied and carried out the simplest cases of AI applied to video games. Ins Miquel Biada, Mataró.
 
-Realizado en Processing, sobre Java.
+Made in Processing, over Java.
 
-[Descarga para Windows](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/files/2156117/TresEnRaya_2.4.zip)
+[Windows Download](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/files/2156117/TresEnRaya_2.4.zip)
 
-[Código Fuente en Github](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/tree/master/Processing%20A%20Star/a_star_2018)
+[Source Code in Github](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/tree/master/Processing%20A%20Star/a_star_2018)
 
-[Explicación del TDR (Catalán)](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/blob/master/2014-15%20-%20LA%20INTEL%E2%80%A2LIG%C3%88NCIA%20ARTIFICIAL%2C%20APLICADA.%20-%20Mario%20Ramos%20Montesinos%20-%20Marcos%20A.%20Rodr%C3%ADguez.pdf)
+[Research work (Catalan)](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/blob/master/2014-15%20-%20LA%20INTEL%E2%80%A2LIG%C3%88NCIA%20ARTIFICIAL%2C%20APLICADA.%20-%20Mario%20Ramos%20Montesinos%20-%20Marcos%20A.%20Rodr%C3%ADguez.pdf)

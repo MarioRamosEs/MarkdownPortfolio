@@ -2,19 +2,19 @@
 title: Can Colapi GDX
 date: 2019-02-10
 published: true
-tags: ["Juego", "Proyecto de Estudiante"]
+tags: ["Game", "Student Project"]
 series: false
 cover_image: ./images/(6).jpg
 canonical_url: false
-description: "Can Colapi GDX empezó como un juego estilo Scape Room pero acabó resultando casi un motor de juego propio basado en LibGDX."
+description: "Can Colapi GDX started as an Escape Room-style game but ended up being almost a LibGDX-based game engine of its own"
 ---
 
-El juego consta de un personaje que tiene que salir de una mansión, tarea que no será sencilla ya que para ello, tendrá que conseguir llaves, usar teletransportes, evitar enemigos e incluso empuñar un arma para poder salir vivo de depende que zonas.
+The game consists of a character that has to leave a mansion, a task that will not be easy since to do this, you will have to get keys, use teleports, avoid enemies and even wield a weapon to be able to get out alive depending on which areas.
 
-Los diferentes mapas están totalmente realizados, tanto visualmente como lógicamente, con [Tiled](https://www.mapeditor.org). Podrías cambiar totalmente los niveles y sus mecánicas únicamente reemplazando el archivo de tiled, y el motor del juego se sabrá adaptar.
+The different maps are fully made, both visually and logically, with [Tiled](https://www.mapeditor.org). You could totally change the levels and their mechanics just by replacing the tiled file, and the game engine will know how to adapt.
 
-Proyecto realizado junto a [Alex Paredes](https://alexparedes.ovh)
+Project carried out together with [Alex Paredes](https://alexparedes.ovh)
 
-[Código Fuente en Github](https://github.com/MarioRamosEs/CanColapiGDX)
+[Source Code on Github](https://github.com/MarioRamosEs/CanColapiGDX)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/dxLMn9W7JRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -2,25 +2,25 @@
 title: Trace Logistics App
 date: 2019-06-30
 published: true
-tags: ["App", "Proyecto Laboral", "React Native"]
+tags: ["App", "Labor Project", "React Native"]
 series: false
 cover_image: ./images/TraceHeader.jpg
 canonical_url: false
-description: "Aplicación multiplataforma para Trace Logistics enfocada a sus repartidores."
+description: "Cross-platform application for Trace Logistics focused on its distributors."
 ---
 
-La aplicación Trace Logístics permite a sus repartidores:
+The Trace Logistics application allows its distributors to:
 
-- Descargar entregas mediante el escaneo de QRs, pudiendo ver toda la información
-- Informar sobre el estado de cada pedido y posibles incidencias, adjuntando imagenes si fuera necesario
-- Informar sobre la geolocalizacion y fecha/hora de cada cambio de estado
-- Guardar la firma del cliente final
-- Geolocalizar en un mapa la dirección de entrega
+- Download deliveries by scanning QRs, being able to see all the information
+- Report on the status of each order and possible incidents, attaching images if necessary
+- Inform about the geolocation and date / time of each state change
+- Save the signature of the end customer
+- Geolocate the delivery address on a map
 
-Aplicación realizada con [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) y [Native Base](https://nativebase.io/)
+Application made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
-[Descarga en Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.tracelogistics&hl=es_419)
-[Descarga en Apple Store](https://apps.apple.com/us/app/trace-logistics/id1483068455?l=es&ls=1)
+[Download at Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.tracelogistics&hl=es_419)
+[Download from Apple Store](https://apps.apple.com/us/app/trace-logistics/id1483068455?l=es&ls=1)
 
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 
