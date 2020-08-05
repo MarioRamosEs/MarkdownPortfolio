@@ -1,10 +1,18 @@
 <template>
   <div class="categories">
     <h2>Portfolio</h2>
-    <a href="tag/App/"><button class="glow-on-hover" type="button">Apps</button></a>
-    <a href="tag/Web/"><button class="glow-on-hover" type="button">Web</button></a>
-    <a href="tag/Juego/"><button class="glow-on-hover" type="button">Juegos</button></a>
-    <a href="tag/I+D/"><button class="glow-on-hover" type="button">I+D</button></a>
+    <a href="tag/App/">
+      <button class="glow-on-hover" type="button">Apps</button>
+    </a>
+    <a href="tag/Web/">
+      <button class="glow-on-hover" type="button">Web</button>
+    </a>
+    <a href="tag/Game/">
+      <button class="glow-on-hover" type="button">Games</button>
+    </a>
+    <a href="tag/I+D/">
+      <button class="glow-on-hover" type="button">I+D</button>
+    </a>
   </div>
 </template>
 
@@ -60,7 +68,18 @@ export default {
 
 .glow-on-hover:before {
   content: "";
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
   position: absolute;
   top: -2px;
   left: -2px;

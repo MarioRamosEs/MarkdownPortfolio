@@ -1,10 +1,10 @@
 <template>
-  <div class="post-meta">Publicado {{ post.date }}.</div>
+  <div class="post-meta">Published {{ post.date }}.</div>
 </template>
 
 <script>
 export default {
-  props: ["post"]
+  props: ["post"],
 };
 </script>
 
