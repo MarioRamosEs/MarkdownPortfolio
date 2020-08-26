@@ -11,7 +11,7 @@
       <button class="glow-on-hover" type="button">Games</button>
     </a>
     <a href="tag/I+D/">
-      <button class="glow-on-hover" type="button">I+D</button>
+      <button class="glow-on-hover" type="button">AI / I+D</button>
     </a>
   </div>
 </template>

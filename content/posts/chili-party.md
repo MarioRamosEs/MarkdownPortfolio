@@ -26,9 +26,10 @@ BAR BAR MODE: Limit the spicy challenges for public places 🍺
 [Download at Play Store](https://play.google.com/store/apps/details?id=com.marioramos.chilliparty)
 
 <div align="center">
-  <img style="width: 100%; max-width: 400px;" src="../images/chiliparty/(1).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/(2).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/(3).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/(4).png">
-  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/(6).png">
+  <img style="width: 100%; max-width: 400px;" src="../images/chiliparty/1.png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/2.png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/3.png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/4.png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/5.png">
+  <img style="width: 100%; max-width: 400px; padding-top: 15px;" src="../images/chiliparty/6.png">
 </div>

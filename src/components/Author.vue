@@ -9,12 +9,17 @@
       blur="5"
     />
 
-    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
+    <h1 v-if="showTitle" class="author__site-title">
+      {{ $static.metadata.siteName }}
+    </h1>
 
     <p class="author__intro">FullStack Developer</p>
 
     <a target="_blank" href="https://github.com/MarioRamosEs">
       <button class="glow-on-hover" type="button">GitHub</button>
+    </a>
+    <a target="_blank" href="https://twitter.com/marioramoses">
+      <button class="glow-on-hover" type="button">Twitter</button>
     </a>
     <a target="_blank" href="CV_MarioRamos.pdf">
       <button class="glow-on-hover" type="button">CV 2019</button>
