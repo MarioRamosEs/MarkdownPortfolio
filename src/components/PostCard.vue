@@ -1,5 +1,8 @@
 <template>
-  <div class="post-card content-box" :class="{ 'post-card--has-poster': post.poster }">
+  <div
+    class="post-card content-box"
+    :class="{ 'post-card--has-poster': post.poster }"
+  >
     <div class="post-card__header">
       <g-image
         alt="Cover image"
@@ -38,6 +41,12 @@ export default {
   margin-bottom: var(--space);
   position: relative;
   max-width: 800px;
+  box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+  }
 
   &__header {
     margin-left: calc(var(--space) * -1);
@@ -58,11 +67,6 @@ export default {
 
   &__title {
     margin-top: 0;
-  }
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
   }
 
   &__tags {

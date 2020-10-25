@@ -15,15 +15,46 @@
 
     <p class="author__intro">FullStack Developer</p>
 
-    <a target="_blank" href="https://github.com/MarioRamosEs">
-      <button class="glow-on-hover" type="button">GitHub</button>
-    </a>
-    <a target="_blank" href="https://twitter.com/marioramoses">
-      <button class="glow-on-hover" type="button">Twitter</button>
-    </a>
-    <a target="_blank" href="CV_MarioRamos.pdf">
-      <button class="glow-on-hover" type="button">CV 2019</button>
-    </a>
+    <v-row justify="center" align="center">
+      <v-btn
+        outlined
+        class="ma-2"
+        color="primary"
+        target="_blank"
+        href="https://github.com/MarioRamosEs"
+      >
+        <v-icon left>
+          mdi-github
+        </v-icon>
+        GitHub
+      </v-btn>
+
+      <v-btn
+        outlined
+        class="ma-2"
+        color="primary"
+        target="_blank"
+        href="https://github.com/MarioRamosEs"
+      >
+        <v-icon left>
+          mdi-twitter
+        </v-icon>
+        Twitter
+      </v-btn>
+
+      <v-btn
+        outlined
+        class="ma-2"
+        color="primary"
+        target="_blank"
+        href="CV_MarioRamos.pdf"
+      >
+        <v-icon left>
+          mdi-pdf-box
+        </v-icon>
+        CV 2019
+      </v-btn>
+    </v-row>
   </div>
 </template>
 
@@ -76,7 +107,7 @@ export default {
 
 .glow-on-hover {
   margin: 5px;
-  width: 220px;
+  width: 100px;
   height: 50px;
   border: none;
   outline: none;

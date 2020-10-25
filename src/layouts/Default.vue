@@ -1,23 +1,29 @@
 <template>
-  <div id="app">
-    <header class="header">
-      <div class="header__left">
-        <Logo v-if="showLogo" />
-      </div>
+  <v-app>
+    <v-content>
+      <v-container fluid>
+        <header class="header">
+          <div class="header__left">
+            <Logo v-if="showLogo" />
+          </div>
 
-      <div class="header__right">
-        <ToggleTheme v-if="false" />
-      </div>
-    </header>
+          <div class="header__right">
+            <ToggleTheme v-if="false" />
+          </div>
+        </header>
 
-    <main class="main">
-      <slot />
-    </main>
+        <main class="main">
+          <slot />
+        </main>
 
-    <footer class="footer" v-if="false">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
-    </footer>
-  </div>
+        <footer class="footer" v-if="false">
+          <span class="footer__copyright"
+            >Copyright © {{ new Date().getFullYear() }}.</span
+          >
+        </footer>
+      </v-container>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
