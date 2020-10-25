@@ -38,7 +38,7 @@ query {
 <script>
 import Author from "~/components/Author.vue";
 import Categories from "~/components/Categories.vue";
-
+import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
