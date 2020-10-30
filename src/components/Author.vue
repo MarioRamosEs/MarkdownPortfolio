@@ -34,7 +34,7 @@
         class="ma-2"
         color="primary"
         target="_blank"
-        href="https://github.com/MarioRamosEs"
+        href="https://twitter.com/marioramoses"
       >
         <v-icon left>
           mdi-twitter
