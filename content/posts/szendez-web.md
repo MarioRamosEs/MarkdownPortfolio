@@ -20,7 +20,7 @@ The Szendex client area allows:
 - Create and manage common addresses
 - Consult specific documentation for the client
 
-Application made with [Vue](https://vuejs.org/), with backend in [ASP.NET](https://dotnet.microsoft.com/apps/aspnet/apis)
+Made with [Vue](https://vuejs.org/), with backend in [ASP.NET](https://dotnet.microsoft.com/apps/aspnet/apis)
 
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
 

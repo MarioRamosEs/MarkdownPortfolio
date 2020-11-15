@@ -9,7 +9,7 @@ canonical_url: false
 description: "Multiplayer drinking game, in which you can establish relationships"
 ---
 
-Application made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
+Made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
 🍹The best application of challenges and spicy questions to drink in group 🍹
 

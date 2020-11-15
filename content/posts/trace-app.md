@@ -17,7 +17,7 @@ The Trace Logistics application allows its distributors to:
 - Save the signature of the end customer
 - Geolocate the delivery address on a map
 
-Application made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
+Made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
 [Download at Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.tracelogistics&hl=es_419)
 [Download from Apple Store](https://apps.apple.com/us/app/trace-logistics/id1483068455?l=es&ls=1)

@@ -15,7 +15,7 @@ Don Pizza Orders allows its clients to:
 - Consult order history and most requested items
 - Special access for distributors
 
-Application made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
+Made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
 [Download at Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.donpizza)
 

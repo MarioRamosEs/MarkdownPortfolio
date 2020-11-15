@@ -3,10 +3,9 @@
     <g-image
       alt="Author image"
       class="author__image"
-      src="~/assets/images/author2.jpg"
+      src="~/assets/images/author3.jpg"
       width="180"
       height="180"
-      blur="5"
     />
 
     <h1 v-if="showTitle" class="author__site-title">
@@ -34,6 +33,19 @@
         class="ma-2"
         color="primary"
         target="_blank"
+        href="https://www.linkedin.com/in/marioramosmontesinos/"
+      >
+        <v-icon left>
+          mdi-linkedin
+        </v-icon>
+        LinkedIn
+      </v-btn>
+
+      <v-btn
+        outlined
+        class="ma-2"
+        color="primary"
+        target="_blank"
         href="https://twitter.com/marioramoses"
       >
         <v-icon left>
@@ -52,7 +64,7 @@
         <v-icon left>
           mdi-pdf-box
         </v-icon>
-        CV 2019
+        CV 2020
       </v-btn>
     </v-row>
   </div>
@@ -75,7 +87,7 @@ export default {
 <style lang="scss">
 .author {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 600px;
   text-align: center;
   padding: calc(var(--space) / 2) 0;
   padding-bottom: 0px;
@@ -83,8 +95,6 @@ export default {
 
   &__image {
     border-radius: 100%;
-    width: 159px;
-    height: 150px;
     margin-bottom: 1em;
   }
 
