@@ -12,7 +12,7 @@
       {{ $static.metadata.siteName }}
     </h1>
 
-    <p class="author__intro">FullStack Developer</p>
+    <p class="author__intro">FullStack Developer in Barcelona</p>
 
     <v-row justify="center" align="center">
       <v-btn
