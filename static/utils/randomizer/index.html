@@ -7,13 +7,24 @@
     <!-- This is a development version of Vue.js! -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-    <!-- import stylesheet -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        #app_basic {
+            width: 300px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            font-family: "Open Sans";
+            padding: 10px;
+        }
+
+        li {
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,7 +52,7 @@
                 },
                 methods: {
                     addElement: function () {
-                        if(!this.newItem) return;
+                        if (!this.newItem) return;
                         this.list.push(this.newItem);
                         this.newItem = "";
                     },
