@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Randomizer</title>
+    <!-- This is a development version of Vue.js! -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        #app_basic {
+            width: 300px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            font-family: "Open Sans";
+            padding: 10px;
+        }
+
+        li {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app_basic">
+        <ul>
+            <li v-for="(item, index) in list"> {{ item }} <span @click="deleteItem(index)">&times;</span></li>
+        </ul>
+        <hr />
+        <input v-model="newItem" placeholder="New Item" v-on:keyup.enter="addElement()">
+        <div>
+            <button v-on:click="addElement()">Add</button>
+            <button v-on:click="selectItem()">Select</button>
+            <h3>Result: {{selectedItem}}</h3>
+        </div>
+    </div>
+
+    <script>
+        new Vue(
+            {
+                el: '#app_basic',
+                data: {
+                    newItem: '',
+                    selectedItem: '',
+                    list: []
+                },
+                methods: {
+                    addElement: function () {
+                        if (!this.newItem) return;
+                        this.list.push(this.newItem);
+                        this.newItem = "";
+                    },
+                    selectItem: function () {
+                        this.selectedItem = this.list[Math.floor(Math.random() * this.list.length)]
+                    },
+                    deleteItem: function (index) {
+                        this.list.splice(index, 1);
+                    }
+                }
+            });
+    </script>
+</body>
+
+</html>
