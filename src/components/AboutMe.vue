@@ -27,8 +27,7 @@
     <div class="post-card content-box">
       <div class="post-card__content">
         <h2 class="post-card__title">Work experience</h2>
-
-        <v-timeline :reverse="reverse" dense>
+        <v-timeline dense>
           <v-timeline-item>
             <template v-slot:icon>
               <v-avatar>
@@ -75,6 +74,37 @@
         </v-timeline>
       </div>
     </div>
+
+        <div class="post-card content-box">
+      <div class="post-card__content">
+        <h2 class="post-card__title">Studies</h2>
+        <v-timeline dense>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/UOC2.jpeg" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline">Computer Engineering Degree - UOC</v-card-title>
+              <v-card-subtitle>(2018 - nowadays)</v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/EscolaPia_Logo.png" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline">Certificate of Higher Education in Multiplatform App Development</v-card-title>
+              <v-card-subtitle>(2016 - 2018)</v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline>
+      </div>
+    </div>
+
   </div>
 </template>
 ˆ
