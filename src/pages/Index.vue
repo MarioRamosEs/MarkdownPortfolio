@@ -5,20 +5,17 @@
 
     <div class="posts">
       <v-tabs centered icons-and-text show-arrows>
+        <v-tab>About me<v-icon>mdi-account</v-icon></v-tab>
         <v-tab>Apps<v-icon>mdi-cellphone-arrow-down</v-icon></v-tab>
-        <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
         <v-tab>Web<v-icon>mdi-web</v-icon></v-tab>
         <v-tab>I+D / IA<v-icon>mdi-clipboard-search-outline</v-icon></v-tab>
+        <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
         <v-tab-item class="pt-2">
-          <PostCard
-            v-for="edge in $page.app.edges"
-            :key="edge.node.id"
-            :post="edge.node"
-          />
+          <AboutMe/>
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
-            v-for="edge in $page.games.edges"
+            v-for="edge in $page.app.edges"
             :key="edge.node.id"
             :post="edge.node"
           />
@@ -33,6 +30,13 @@
         <v-tab-item class="pt-2">
           <PostCard
             v-for="edge in $page.others.edges"
+            :key="edge.node.id"
+            :post="edge.node"
+          />
+        </v-tab-item>
+        <v-tab-item class="pt-2">
+          <PostCard
+            v-for="edge in $page.games.edges"
             :key="edge.node.id"
             :post="edge.node"
           />
@@ -123,15 +127,17 @@ query {
 import Author from "~/components/Author.vue";
 import Categories from "~/components/Categories.vue";
 import PostCard from "~/components/PostCard.vue";
+import AboutMe from "~/components/AboutMe.vue";
 
 export default {
   components: {
     Author,
     PostCard,
     Categories,
+    AboutMe
   },
   metaInfo: {
-    title: "Inicio",
+    title: "Portfolio",
   },
 };
 </script>

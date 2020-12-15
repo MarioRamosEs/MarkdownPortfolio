@@ -1,5 +1,6 @@
 {
   "name": "gridsome-starter-blog",
+  "author": "Mario Ramos",
   "private": true,
   "scripts": {
     "build": "gridsome build",
