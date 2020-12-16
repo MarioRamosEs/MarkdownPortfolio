@@ -40,17 +40,18 @@
               <v-card-text>
                 <ul>
                   <li>
-                    Development of customized platforms. Websites and cross-platform apps.
+                    Development of customized platforms. Websites and
+                    cross-platform apps.
                   </li>
                   <li>
-                    Development of integrations with A3ERP. Synchronizers, websites, apps and plant management software.
+                    Development of integrations with A3ERP. Synchronizers,
+                    websites, apps and plant management software.
                   </li>
                   <li>
-                    Development of integrations with Prestashop, Salesforce, Zoho, WooComerce and Consentio.
+                    Development of integrations with Prestashop, Salesforce,
+                    Zoho, WooComerce and Consentio.
                   </li>
-                  <li>
-                    Online and face-to-face assistance for any problem.
-                  </li>
+                  <li>Online and face-to-face assistance for any problem.</li>
                 </ul>
               </v-card-text>
             </v-card>
@@ -62,11 +63,16 @@
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline">Serendipity Learning Services</v-card-title>
+              <v-card-title class="headline"
+                >Serendipity Learning Services</v-card-title
+              >
               <v-card-subtitle>(sept. 2015 - jun. 2018)</v-card-subtitle>
               <v-card-text>
                 <ul>
-                  <li>Collaborating in the creation of STEM projects related to web, robotics, IoT and video games.</li>
+                  <li>
+                    Collaborating in the creation of STEM projects related to
+                    web, robotics, IoT and video games.
+                  </li>
                 </ul>
               </v-card-text>
             </v-card>
@@ -75,7 +81,7 @@
       </div>
     </div>
 
-        <div class="post-card content-box">
+    <div class="post-card content-box">
       <div class="post-card__content">
         <h2 class="post-card__title">Studies</h2>
         <v-timeline dense>
@@ -86,7 +92,9 @@
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline">Computer Engineering Degree - UOC</v-card-title>
+              <v-card-title class="headline"
+                >Computer Engineering Degree - UOC</v-card-title
+              >
               <v-card-subtitle>(2018 - nowadays)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
@@ -97,7 +105,10 @@
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline">Certificate of Higher Education in Multiplatform App Development</v-card-title>
+              <v-card-title class="headline"
+                >Certificate of Higher Education in Multiplatform App
+                Development</v-card-title
+              >
               <v-card-subtitle>(2016 - 2018)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
@@ -105,6 +116,67 @@
       </div>
     </div>
 
+    <div class="post-card content-box">
+      <div class="post-card__content">
+        <h2 class="post-card__title">More Info</h2>
+
+        <v-row no-gutters>
+          
+          <v-col cols="12" sm="12" md="6">
+            <v-card class="pa-2" outlined tile>
+              <h5>Languages</h5>
+              <v-progress-linear
+                color="light-blue"
+                height="25"
+                value="100"
+                striped
+              >
+                <template v-slot:default="{}">
+                  <strong>Spanish</strong>
+                </template></v-progress-linear
+              >
+              <div class="pt-2">
+                <v-progress-linear
+                color="light-blue"
+                height="25"
+                value="70"
+                striped
+              >
+                <template v-slot:default="{}">
+                  <strong>Catalan</strong>
+                </template></v-progress-linear
+              >
+              </div>
+              <div class="pt-2">
+                <v-progress-linear
+                color="light-blue"
+                height="25"
+                value="50"
+                striped
+              >
+                <template v-slot:default="{}">
+                  <strong>English</strong>
+                </template></v-progress-linear
+              >
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" sm="12" md="6">
+            <v-card class="pa-2" outlined tile> 
+              <h5>Collaborations</h5>
+              <ul>
+                <li><a href="https://spacetaco.studio/">Space Taco Studio</a></li>
+                <p>Game developer Studio</p>
+                <li><a href="https://www.amazon.es/Programaci%C3%B3n-Visual-Scratch-Marco-Rodr%C3%ADguez/dp/846176899X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=programacion+visual+con+scratch&qid=1608118096&sr=8-1">Programación visual con Scratch</a></li>
+                <p>Formative Book</p>
+              </ul>
+               </v-card>
+          </v-col>
+
+        </v-row>
+      </div>
+    </div>
   </div>
 </template>
 ˆ
@@ -113,6 +185,15 @@ export default {};
 </script>
 
 <style lang="scss">
+
+h5{
+  margin-top: 0px;
+}
+
+.theme--light.v-sheet--outlined{
+  border: none;
+}
+
 .post-card {
   margin-bottom: var(--space);
   position: relative;
