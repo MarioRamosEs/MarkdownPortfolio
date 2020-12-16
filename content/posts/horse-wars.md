@@ -1,6 +1,6 @@
 ---
 title: Horse Wars
-date: 2019-01-06
+date: 2016-01-06
 published: true
 tags: ["I+D", "Personal project"]
 series: false

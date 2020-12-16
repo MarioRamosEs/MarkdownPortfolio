@@ -1,6 +1,6 @@
 ---
 title: Asteroids Shooter Ultra
-date: 2019-01-05
+date: 2016-01-05
 published: true
 tags: ["Game", "Personal project"]
 series: false

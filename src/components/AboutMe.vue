@@ -93,9 +93,9 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline"
-                >Computer Engineering Degree - UOC</v-card-title
+                >Computer Engineering Degree</v-card-title
               >
-              <v-card-subtitle>(2018 - nowadays)</v-card-subtitle>
+              <v-card-subtitle>Universitat Oberta de Catalunya UOC (2018 - nowadays)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
@@ -109,7 +109,7 @@
                 >Certificate of Higher Education in Multiplatform App
                 Development</v-card-title
               >
-              <v-card-subtitle>(2016 - 2018)</v-card-subtitle>
+              <v-card-subtitle>Escola Pia Santana (2016 - 2018)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
         </v-timeline>

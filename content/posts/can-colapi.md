@@ -1,6 +1,6 @@
 ---
 title: Can Colapi GDX
-date: 2019-02-10
+date: 2018-02-10
 published: true
 tags: ["Game", "Student Project"]
 series: false

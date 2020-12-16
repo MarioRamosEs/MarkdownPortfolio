@@ -1,6 +1,6 @@
 ---
 title: Tic Tac Toe Minimax
-date: 2019-01-07
+date: 2017-01-07
 published: true
 tags: ["I+D", "Student Project"]
 series: false
