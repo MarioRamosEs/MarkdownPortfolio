@@ -2,7 +2,7 @@
 title: Szendex Web Portal
 date: 2019-06-30
 published: true
-tags: ["Web", "Labor Project", "Vue"]
+tags: ["Web", "Labor Project", "Vue", ".NET"]
 series: false
 cover_image: ./images/SzendexHeader.jpg
 canonical_url: false
