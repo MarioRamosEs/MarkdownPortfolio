@@ -1,12 +1,12 @@
 ---
-title: First approach Express.js APIs
+title: First approach to Express.js APIs
 date: 2020-12-25
 published: true
 tags: ["I+D", "Personal Project", "Node"]
 series: false
 cover_image: ./images/ExpressJsHeader.jpg
 canonical_url: false
-description: "Example of APIs with Express.js, using MongoDB and Azure SQL"
+description: "Simple examples of APIs with Express.js, using MongoDB and Azure SQL"
 ---
 
 In the process of learning the Node backend technology (being used to NetCore), I have built two REST API templates with Express.js
@@ -24,3 +24,5 @@ In the process of learning the Node backend technology (being used to NetCore), 
 As a result of this, I can say that I really liked the way of developing a backend API with Node.js and would certainly love to implement all of this in some future project. 
 
 I think Express is at the same level as Net Core, since it compensates its disadvantages with a great community and support.
+
+And finally, I am aware that they are very basic examples that require the integration of many other factors (CORS, JWT, Cache ...) but this for the next one!
