@@ -1,7 +1,7 @@
 ---
 title: Horse Wars
 date: 2016-01-06
-published: true
+published: false
 tags: ["I+D", "Personal project"]
 series: false
 cover_image: ./images/(9).png

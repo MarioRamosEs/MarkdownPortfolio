@@ -1,7 +1,7 @@
 ---
 title: Chili Party
 date: 2020-04-11
-published: true
+published: false
 tags: ["Game", "Personal project", "React Native"]
 series: false
 cover_image: ./images/ChiliPartyHeader.jpg
