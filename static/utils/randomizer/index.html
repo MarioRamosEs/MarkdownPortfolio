@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>Randomizer</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
@@ -35,14 +34,17 @@
                         <v-btn text outlined @click="selectItem()">
                             Select
                         </v-btn>
+                        <v-btn text outlined @click="clearAll()">
+                            Clear All
+                        </v-btn>
                     </v-card-actions>
                 </v-card>
             </v-container>
         </v-app>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.js"></script>
     <script>
         new Vue(
             {
@@ -53,17 +55,26 @@
                     selectedItem: '',
                     list: []
                 },
+                mounted() {
+                    if (localStorage.elements) this.list = JSON.parse(localStorage.elements);
+                },
                 methods: {
                     addElement: function () {
                         if (!this.newItem) return;
                         this.list.push(this.newItem);
                         this.newItem = "";
+                        localStorage.elements = JSON.stringify(this.list);
                     },
                     selectItem: function () {
                         this.selectedItem = this.list[Math.floor(Math.random() * this.list.length)]
                     },
                     deleteItem: function (index) {
                         this.list.splice(index, 1);
+                        localStorage.elements = JSON.stringify(this.list);
+                    },
+                    clearAll: function () {
+                        this.list = [];
+                        localStorage.elements = JSON.stringify(this.list);
                     }
                 }
             });
