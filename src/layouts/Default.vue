@@ -1,28 +1,27 @@
 <template>
   <v-app>
-    <v-content>
+
+    <v-main>
       <v-container fluid>
+
         <header class="header">
           <div class="header__left">
             <Logo v-if="showLogo" />
           </div>
-
           <div class="header__right">
             <ToggleTheme v-if="false" />
           </div>
         </header>
 
-        <main class="main">
-          <slot />
-        </main>
+        <slot />
 
-        <footer class="footer" v-if="false">
-          <span class="footer__copyright"
-            >Copyright © {{ new Date().getFullYear() }}.</span
-          >
-        </footer>
       </v-container>
-    </v-content>
+    </v-main>
+
+    <v-footer app v-if="false">
+      Copyright © {{ new Date().getFullYear() }}.
+    </v-footer>
+    
   </v-app>
 </template>
 
@@ -61,28 +60,6 @@ export default {
     //Make header sticky for large screens
     position: sticky;
     width: 100%;
-  }
-}
-
-.main {
-  margin: 0 auto;
-  padding: 0.5vw 15px 0;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: calc(var(--space) / 2);
-  text-align: center;
-  font-size: 0.8em;
-
-  > span {
-    margin: 0 0.35em;
-  }
-
-  a {
-    color: currentColor;
   }
 }
 </style>

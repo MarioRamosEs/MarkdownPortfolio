@@ -37,7 +37,7 @@
             <v-card class="elevation-2">
               <v-card-title class="headline">AT Infoserveis</v-card-title>
               <v-card-subtitle>(sept. 2018 - nov. 2020)</v-card-subtitle>
-              <v-card-text>
+              <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
                     Development of customized platforms. Websites and
@@ -198,11 +198,11 @@ h5{
   margin-bottom: var(--space);
   position: relative;
   max-width: 800px;
-  box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.2);
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.3);
   }
 
   &__header {

@@ -19,4 +19,4 @@ Made in Processing, on Java.
 
 [Source Code on Github](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/tree/master/Tres_en_Raya_2)
 
-[Explanation of TDR (Catalan)](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/blob/master/2014-15%20-%20LA%20INTEL%E2%80%A2LIG% C3% 88NCIA% 20ARTIFICIAL% 2C% 20APPLIED.% 20-% 20Mario% 20Ramos% 20Montesinos% 20-% 20Marcos% 20A.% 20Rodr% C3% ADguez.pdf)
+[Research work (Catalan)](https://github.com/MarioRamosEs/Trabajo-final-IA-2014-15/blob/master/2014-15%20-%20LA%20INTEL%E2%80%A2LIG%C3%88NCIA%20ARTIFICIAL%2C%20APLICADA.%20-%20Mario%20Ramos%20Montesinos%20-%20Marcos%20A.%20Rodr%C3%ADguez.pdf)
