@@ -40,6 +40,9 @@
               <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
+                    Vue.js, React Native and .Net
+                  </li>
+                  <li>
                     Development of customized platforms. Websites and
                     cross-platform apps.
                   </li>
@@ -110,6 +113,19 @@
                 Development</v-card-title
               >
               <v-card-subtitle>Escola Pia Santana (2016 - 2018)</v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/biada_logo.jpg" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Technological Baccalaureate</v-card-title
+              >
+              <v-card-subtitle>IES Miquel Biada (2014 - 2016)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
         </v-timeline>
