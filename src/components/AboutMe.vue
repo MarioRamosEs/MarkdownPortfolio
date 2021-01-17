@@ -128,6 +128,19 @@
               <v-card-subtitle>IES Miquel Biada (2014 - 2016)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/marf_logo.png" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >S.T.E.M. Academy</v-card-title
+              >
+              <v-card-subtitle>MARF Informática (2010 - 2015)</v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
         </v-timeline>
       </div>
     </div>
