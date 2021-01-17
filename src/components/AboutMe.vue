@@ -40,7 +40,7 @@
               <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
-                    Vue.js, React Native and .Net
+                    Vue.js, React Native and .NET
                   </li>
                   <li>
                     Development of customized platforms. Websites and
