@@ -145,12 +145,44 @@
       </div>
     </div>
 
+     <div class="post-card content-box">
+      <div class="post-card__content">
+        <h2 class="post-card__title">Certifications</h2>
+        <v-timeline dense>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/azure-fundamentals-300x300.png" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Microsoft Certified: Azure Fundamentals</v-card-title
+              >
+              <v-card-subtitle>Microsoft - 2021 - <a href="https://www.youracclaim.com/badges/804c8832-c999-4952-94a8-804e019eeef9" target="_blank">View credential</a></v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/udemy.jfif" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Vuejs 2 + Vuex with TypeScript </v-card-title
+              >
+              <v-card-subtitle>Udemy - 2019 - <a href="http://ude.my/UC-aba96422-c2f5-4e67-9a2c-570212e7e499" target="_blank">View credential</a></v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline>
+      </div>
+    </div>
+
     <div class="post-card content-box">
       <div class="post-card__content">
         <h2 class="post-card__title">More Info</h2>
-
         <v-row no-gutters>
-          
           <v-col cols="12" sm="12" md="6">
             <v-card class="pa-2" outlined tile>
               <h5>Languages</h5>
@@ -190,7 +222,6 @@
               </div>
             </v-card>
           </v-col>
-
           <v-col cols="12" sm="12" md="6">
             <v-card class="pa-2" outlined tile> 
               <h5>Collaborations</h5>
@@ -202,7 +233,6 @@
               </ul>
                </v-card>
           </v-col>
-
         </v-row>
       </div>
     </div>
