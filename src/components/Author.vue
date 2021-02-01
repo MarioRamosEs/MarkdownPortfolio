@@ -59,12 +59,12 @@
         class="ma-2"
         color="primary"
         target="_blank"
-        href="CV_MarioRamos.pdf"
+        href="CV_MarioRamos_2021.pdf"
       >
         <v-icon left>
           mdi-pdf-box
         </v-icon>
-        CV 2020
+        CV 2021
       </v-btn>
     </v-row>
   </div>
