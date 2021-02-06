@@ -4,14 +4,13 @@
       <div class="post-card__content">
         <h2 class="post-card__title">About Me</h2>
         <p>
-          Young FullStack Developer focused in .NET Core, Vue, React Native and
+          Young FullStack Developer focused in .NET Core, Angular/Vue, React Native and
           Azure. Although I also like to program video games and other things in
           my spare time. Eager to learn more every day. 👨‍💻
         </p>
         <p>
           Most of the projects I have worked for are private, but here I show
-          some of the ones that are public. Currently looking for a job in
-          Barcelona 😉
+          some of the ones that are public.
         </p>
       </div>
     </div>
@@ -28,6 +27,24 @@
       <div class="post-card__content">
         <h2 class="post-card__title">Work experience</h2>
         <v-timeline dense>
+                    <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/axpe_logo.png" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline">AXPE Consulting</v-card-title>
+              <v-card-subtitle>(feb. 2021 - nowadays)</v-card-subtitle>
+              <v-card-text class="pl-0 pr-0">
+                <ul>
+                  <li>
+                    Angular and .NET
+                  </li>
+                </ul>
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
           <v-timeline-item>
             <template v-slot:icon>
               <v-avatar>
@@ -36,7 +53,7 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline">AT Infoserveis</v-card-title>
-              <v-card-subtitle>(sept. 2018 - nov. 2020)</v-card-subtitle>
+              <v-card-subtitle>(sept. 2018 - dec. 2020)</v-card-subtitle>
               <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
