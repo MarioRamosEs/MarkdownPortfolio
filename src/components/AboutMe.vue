@@ -19,7 +19,7 @@
       <div class="post-card__content">
         <h2 class="post-card__title">Tech Stacks</h2>
         <p class="post-card__description" v-if="false">HOLA</p>
-        <img src="/images/Stacks.png" alt="Tech Stacks" />
+        <img src="/images/Stacks2.png" alt="Tech Stacks" />
       </div>
     </div>
 
