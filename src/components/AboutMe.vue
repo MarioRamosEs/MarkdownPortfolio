@@ -19,7 +19,7 @@
       <div class="post-card__content">
         <h2 class="post-card__title">Tech Stacks</h2>
         <p class="post-card__description" v-if="false">HOLA</p>
-        <img src="/images/Stacks2.png" alt="Tech Stacks" />
+        <img src="/images/Stacks3.png" alt="Tech Stacks" />
       </div>
     </div>
 
@@ -39,7 +39,10 @@
               <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
-                    Angular and .NET
+                    Net Core, Angular
+                  </li>
+                  <li>
+                    Development of the Hipatia platform, a restart from scratch of the VHIR (Vall d'Hebron Research Institute) management platform adaptable to other clinical research centers.
                   </li>
                 </ul>
               </v-card-text>
