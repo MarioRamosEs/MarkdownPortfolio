@@ -14,7 +14,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.23",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "npm": "^7.9.0",
     "vue-disqus": "^4.0.1",
     "vuetify": "^2.4.9"
