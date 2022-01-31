@@ -55,6 +55,7 @@
       </v-btn>
 
       <v-btn
+        v-if="false"
         outlined
         class="ma-2"
         color="primary"

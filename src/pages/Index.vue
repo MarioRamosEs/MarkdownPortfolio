@@ -6,8 +6,8 @@
     <div class="posts">
       <v-tabs centered icons-and-text show-arrows>
         <v-tab>About me<v-icon>mdi-account</v-icon></v-tab>
-        <v-tab>Apps<v-icon>mdi-cellphone-arrow-down</v-icon></v-tab>
         <v-tab>Web<v-icon>mdi-web</v-icon></v-tab>
+        <v-tab>Apps<v-icon>mdi-cellphone-arrow-down</v-icon></v-tab>
         <v-tab>I+D / IA<v-icon>mdi-clipboard-search-outline</v-icon></v-tab>
         <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
         <v-tab-item class="pt-2">
@@ -15,14 +15,14 @@
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
-            v-for="edge in $page.app.edges"
+            v-for="edge in $page.web.edges"
             :key="edge.node.id"
             :post="edge.node"
           />
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
-            v-for="edge in $page.web.edges"
+            v-for="edge in $page.app.edges"
             :key="edge.node.id"
             :post="edge.node"
           />

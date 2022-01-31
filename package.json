@@ -6,6 +6,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "serve": "gridsome develop",
+    "start": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
@@ -14,13 +15,13 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.23",
-    "i": "^0.3.6",
-    "npm": "^7.9.0",
+    "i": "^0.3.7",
+    "npm": "^7.24.2",
     "vue-disqus": "^4.0.1",
-    "vuetify": "^2.4.9"
+    "vuetify": "^2.6.3"
   },
   "devDependencies": {
     "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.2.1"
   }
 }
