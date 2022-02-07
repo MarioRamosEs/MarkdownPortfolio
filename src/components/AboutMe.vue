@@ -106,6 +106,53 @@
 
     <div class="post-card content-box">
       <div class="post-card__content">
+        <h2 class="post-card__title">Certifications</h2>
+        <v-timeline dense>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/azure-developer-associate-600x600.png" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Microsoft Certified: Azure Developer Associate</v-card-title
+              >
+              <v-card-subtitle>Microsoft - 2022 - <a href="https://www.credly.com/badges/58b17f94-992e-488f-b52f-e4f465fbd700/public_url" target="_blank">View credential</a></v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/azure-fundamentals-300x300.png" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Microsoft Certified: Azure Fundamentals</v-card-title
+              >
+              <v-card-subtitle>Microsoft - 2021 - <a href="https://www.credly.com/badges/a554b5ce-0044-42dd-b171-59e8703b05c5/public_url" target="_blank">View credential</a></v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+          <v-timeline-item>
+            <template v-slot:icon>
+              <v-avatar>
+                <img src="/images/udemy.jfif" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Vuejs 2 + Vuex with TypeScript </v-card-title
+              >
+              <v-card-subtitle>Udemy - 2019 - <a href="http://ude.my/UC-aba96422-c2f5-4e67-9a2c-570212e7e499" target="_blank">View credential</a></v-card-subtitle>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline>
+      </div>
+    </div>
+
+    <div class="post-card content-box">
+      <div class="post-card__content">
         <h2 class="post-card__title">Studies</h2>
         <v-timeline dense>
           <v-timeline-item>
@@ -159,40 +206,6 @@
                 >S.T.E.M. Academy</v-card-title
               >
               <v-card-subtitle>MARF Informática (2010 - 2015)</v-card-subtitle>
-            </v-card>
-          </v-timeline-item>
-        </v-timeline>
-      </div>
-    </div>
-
-     <div class="post-card content-box">
-      <div class="post-card__content">
-        <h2 class="post-card__title">Certifications</h2>
-        <v-timeline dense>
-          <v-timeline-item>
-            <template v-slot:icon>
-              <v-avatar>
-                <img src="/images/azure-fundamentals-300x300.png" />
-              </v-avatar>
-            </template>
-            <v-card class="elevation-2">
-              <v-card-title class="headline"
-                >Microsoft Certified: Azure Fundamentals</v-card-title
-              >
-              <v-card-subtitle>Microsoft - 2021 - <a href="https://www.youracclaim.com/badges/804c8832-c999-4952-94a8-804e019eeef9" target="_blank">View credential</a></v-card-subtitle>
-            </v-card>
-          </v-timeline-item>
-          <v-timeline-item>
-            <template v-slot:icon>
-              <v-avatar>
-                <img src="/images/udemy.jfif" />
-              </v-avatar>
-            </template>
-            <v-card class="elevation-2">
-              <v-card-title class="headline"
-                >Vuejs 2 + Vuex with TypeScript </v-card-title
-              >
-              <v-card-subtitle>Udemy - 2019 - <a href="http://ude.my/UC-aba96422-c2f5-4e67-9a2c-570212e7e499" target="_blank">View credential</a></v-card-subtitle>
             </v-card>
           </v-timeline-item>
         </v-timeline>
