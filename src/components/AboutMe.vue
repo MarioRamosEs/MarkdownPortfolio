@@ -4,9 +4,9 @@
       <div class="post-card__content">
         <h2 class="post-card__title">About Me</h2>
         <p>
-          FullStack Developer focused in .NET Core, Azure and Angular/Vue. 
-          Although I also like to program video games and other things in
-          my spare time. Eager to learn more every day. 👨‍💻
+          FullStack Developer focused in .NET Core, Azure and Angular/Vue.
+          Although I also like to program video games and other things in my
+          spare time. Eager to learn more every day. 👨‍💻
         </p>
         <p>
           Most of the projects I have worked for are private, but here I show
@@ -14,7 +14,11 @@
         </p>
         <p>
           <v-icon>mdi-email</v-icon>
-          <a href="mailto:marioramosmontesinos@gmail.com" style="padding-left: 6px">marioramosmontesinos@gmail.com</a>
+          <a
+            href="mailto:marioramosmontesinos@gmail.com"
+            style="padding-left: 6px"
+            >marioramosmontesinos@gmail.com</a
+          >
         </p>
       </div>
     </div>
@@ -22,7 +26,7 @@
     <div class="post-card content-box">
       <div class="post-card__content">
         <h2 class="post-card__title">Tech Stacks</h2>
-        <p class="post-card__description" v-if="false">HOLA</p>
+        <p v-if="false" class="post-card__description">HOLA</p>
         <img src="/images/stacks.png" alt="Tech Stacks" />
       </div>
     </div>
@@ -31,15 +35,16 @@
       <div class="post-card__content">
         <h2 class="post-card__title">Work experience</h2>
         <v-timeline dense>
-                    <v-timeline-item>
-            <template v-slot:icon>
+          <v-timeline-item>
+            <template #icon>
               <v-avatar>
                 <img src="/images/axpe_logo.png" />
               </v-avatar>
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline">AXPE Consulting</v-card-title>
-              <v-card-subtitle>(feb. 2021 - nowadays)
+              <v-card-subtitle
+                >(feb. 2021 - nowadays)
                 <v-chip-group>
                   <dot-net-chip></dot-net-chip>
                   <angular-chip></angular-chip>
@@ -50,7 +55,9 @@
               <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
-                    Development of the Hipatia platform, a restart from scratch of the VHIR (Vall d'Hebron Research Institute) management platform adaptable to other clinical research centers.
+                    Development of the Hipatia platform, a restart from scratch
+                    of the VHIR (Vall d'Hebron Research Institute) management
+                    platform adaptable to other clinical research centers.
                   </li>
                   <li>
                     Decision making and quality manager on the technical part
@@ -60,14 +67,15 @@
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/AtInfoserveis_logo.jpg" />
               </v-avatar>
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline">AT Infoserveis</v-card-title>
-              <v-card-subtitle>(sept. 2018 - dec. 2020)
+              <v-card-subtitle
+                >(sept. 2018 - dec. 2020)
                 <v-chip-group>
                   <dot-net-chip></dot-net-chip>
                   <vue-chip></vue-chip>
@@ -94,7 +102,7 @@
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/SLS_logo.jpg" />
               </v-avatar>
@@ -123,7 +131,7 @@
         <h2 class="post-card__title">Certifications</h2>
         <v-timeline dense>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/azure-developer-associate-600x600.png" />
               </v-avatar>
@@ -132,11 +140,18 @@
               <v-card-title class="headline"
                 >Microsoft Certified: Azure Developer Associate</v-card-title
               >
-              <v-card-subtitle>Microsoft - 2022 - <a href="https://www.credly.com/badges/58b17f94-992e-488f-b52f-e4f465fbd700/public_url" target="_blank">View credential</a></v-card-subtitle>
+              <v-card-subtitle
+                >Microsoft - 2022 -
+                <a
+                  href="https://www.credly.com/badges/58b17f94-992e-488f-b52f-e4f465fbd700/public_url"
+                  target="_blank"
+                  >View credential</a
+                ></v-card-subtitle
+              >
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/azure-fundamentals-300x300.png" />
               </v-avatar>
@@ -145,20 +160,34 @@
               <v-card-title class="headline"
                 >Microsoft Certified: Azure Fundamentals</v-card-title
               >
-              <v-card-subtitle>Microsoft - 2021 - <a href="https://www.credly.com/badges/a554b5ce-0044-42dd-b171-59e8703b05c5/public_url" target="_blank">View credential</a></v-card-subtitle>
+              <v-card-subtitle
+                >Microsoft - 2021 -
+                <a
+                  href="https://www.credly.com/badges/a554b5ce-0044-42dd-b171-59e8703b05c5/public_url"
+                  target="_blank"
+                  >View credential</a
+                ></v-card-subtitle
+              >
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/udemy.jfif" />
               </v-avatar>
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline"
-                >Vuejs 2 + Vuex with TypeScript </v-card-title
+                >Vuejs 2 + Vuex with TypeScript
+              </v-card-title>
+              <v-card-subtitle
+                >Udemy - 2019 -
+                <a
+                  href="http://ude.my/UC-aba96422-c2f5-4e67-9a2c-570212e7e499"
+                  target="_blank"
+                  >View credential</a
+                ></v-card-subtitle
               >
-              <v-card-subtitle>Udemy - 2019 - <a href="http://ude.my/UC-aba96422-c2f5-4e67-9a2c-570212e7e499" target="_blank">View credential</a></v-card-subtitle>
             </v-card>
           </v-timeline-item>
         </v-timeline>
@@ -170,7 +199,7 @@
         <h2 class="post-card__title">Studies</h2>
         <v-timeline dense>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/UOC2.jpeg" />
               </v-avatar>
@@ -179,11 +208,14 @@
               <v-card-title class="headline"
                 >Computer Engineering Degree</v-card-title
               >
-              <v-card-subtitle>Universitat Oberta de Catalunya UOC (2018 - nowadays)</v-card-subtitle>
+              <v-card-subtitle
+                >Universitat Oberta de Catalunya UOC (2018 -
+                nowadays)</v-card-subtitle
+              >
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/EscolaPia_Logo.png" />
               </v-avatar>
@@ -193,11 +225,13 @@
                 >Certificate of Higher Education in Multiplatform App
                 Development</v-card-title
               >
-              <v-card-subtitle>Escola Pia Santana (2016 - 2018)</v-card-subtitle>
+              <v-card-subtitle
+                >Escola Pia Santana (2016 - 2018)</v-card-subtitle
+              >
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/biada_logo.jpg" />
               </v-avatar>
@@ -210,15 +244,13 @@
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
-            <template v-slot:icon>
+            <template #icon>
               <v-avatar>
                 <img src="/images/marf_logo.png" />
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline"
-                >S.T.E.M. Academy</v-card-title
-              >
+              <v-card-title class="headline">S.T.E.M. Academy</v-card-title>
               <v-card-subtitle>MARF Informática (2010 - 2015)</v-card-subtitle>
             </v-card>
           </v-timeline-item>
@@ -239,46 +271,53 @@
                 value="100"
                 striped
               >
-                <template v-slot:default="{}">
+                <template #default="{}">
                   <strong>Spanish</strong>
                 </template></v-progress-linear
               >
               <div class="pt-2">
                 <v-progress-linear
-                color="light-blue"
-                height="25"
-                value="70"
-                striped
-              >
-                <template v-slot:default="{}">
-                  <strong>Catalan</strong>
-                </template></v-progress-linear
-              >
+                  color="light-blue"
+                  height="25"
+                  value="70"
+                  striped
+                >
+                  <template #default="{}">
+                    <strong>Catalan</strong>
+                  </template></v-progress-linear
+                >
               </div>
               <div class="pt-2">
                 <v-progress-linear
-                color="light-blue"
-                height="25"
-                value="50"
-                striped
-              >
-                <template v-slot:default="{}">
-                  <strong>English</strong>
-                </template></v-progress-linear
-              >
+                  color="light-blue"
+                  height="25"
+                  value="50"
+                  striped
+                >
+                  <template #default="{}">
+                    <strong>English</strong>
+                  </template></v-progress-linear
+                >
               </div>
             </v-card>
           </v-col>
           <v-col cols="12" sm="12" md="6">
-            <v-card class="pa-2" outlined tile> 
+            <v-card class="pa-2" outlined tile>
               <h5>Collaborations</h5>
               <ul>
-                <li><a href="https://spacetaco.studio/">Space Taco Studio</a></li>
+                <li>
+                  <a href="https://spacetaco.studio/">Space Taco Studio</a>
+                </li>
                 <p>Game developer Studio</p>
-                <li><a href="https://www.amazon.es/Programaci%C3%B3n-Visual-Scratch-Marco-Rodr%C3%ADguez/dp/846176899X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=programacion+visual+con+scratch&qid=1608118096&sr=8-1">Programación visual con Scratch</a></li>
+                <li>
+                  <a
+                    href="https://www.amazon.es/Programaci%C3%B3n-Visual-Scratch-Marco-Rodr%C3%ADguez/dp/846176899X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=programacion+visual+con+scratch&qid=1608118096&sr=8-1"
+                    >Programación visual con Scratch</a
+                  >
+                </li>
                 <p>Formative Book</p>
               </ul>
-               </v-card>
+            </v-card>
           </v-col>
         </v-row>
       </div>
@@ -287,18 +326,12 @@
 </template>
 ˆ
 <script>
-import AzureChip
-  from "./TechChips/AzureChip";
-import DotNetChip
-  from "./TechChips/DotNetChip";
-import AngularChip
-  from "./TechChips/AngularChip";
-import VueChip
-  from "./TechChips/VueChip";
-import ReactNativeChip
-  from "./TechChips/ReactNativeChip";
-import JasperReportsChip
-  from "./TechChips/JasperReportsChip";
+import AzureChip from "./TechChips/AzureChip";
+import DotNetChip from "./TechChips/DotNetChip";
+import AngularChip from "./TechChips/AngularChip";
+import VueChip from "./TechChips/VueChip";
+import ReactNativeChip from "./TechChips/ReactNativeChip";
+import JasperReportsChip from "./TechChips/JasperReportsChip";
 export default {
   components: {
     JasperReportsChip,
@@ -306,18 +339,17 @@ export default {
     VueChip,
     AngularChip,
     DotNetChip,
-    AzureChip
-  }
+    AzureChip,
+  },
 };
 </script>
 
 <style lang="scss">
-
-h5{
+h5 {
   margin-top: 0px;
 }
 
-.theme--light.v-sheet--outlined{
+.theme--light.v-sheet--outlined {
   border: none;
 }
 

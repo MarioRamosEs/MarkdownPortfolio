@@ -9,17 +9,15 @@ import "vuetify/dist/vuetify.min.css";
 import colors from "vuetify/lib/util/colors";
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
-export default function(Vue, { appOptions, router, head, isClient }) {
+export default function (Vue, { appOptions, head }) {
   head.link.push({
     rel: "stylesheet",
-    href:
-      "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+    href: "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
   });
 
   head.link.push({
     rel: "stylesheet",
-    href:
-      "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
+    href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
   });
 
   const opts = {

@@ -22,9 +22,7 @@
         target="_blank"
         href="https://github.com/MarioRamosEs"
       >
-        <v-icon left>
-          mdi-github
-        </v-icon>
+        <v-icon left> mdi-github </v-icon>
         GitHub
       </v-btn>
 
@@ -35,9 +33,7 @@
         target="_blank"
         href="https://www.linkedin.com/in/marioramosmontesinos/"
       >
-        <v-icon left>
-          mdi-linkedin
-        </v-icon>
+        <v-icon left> mdi-linkedin </v-icon>
         LinkedIn
       </v-btn>
 
@@ -48,9 +44,7 @@
         target="_blank"
         href="https://twitter.com/marioramoses"
       >
-        <v-icon left>
-          mdi-twitter
-        </v-icon>
+        <v-icon left> mdi-twitter </v-icon>
         Twitter
       </v-btn>
 
@@ -61,9 +55,7 @@
         target="_blank"
         href="CV_MarioRamos_2022.pdf"
       >
-        <v-icon left>
-          mdi-file-pdf-box
-        </v-icon>
+        <v-icon left> mdi-file-pdf-box </v-icon>
         CV 2022
       </v-btn>
     </v-row>

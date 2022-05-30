@@ -9,8 +9,8 @@
     <div class="post content-box">
       <div class="post__header">
         <g-image
-          alt="Cover image"
           v-if="$page.post.cover_image"
+          alt="Cover image"
           :src="$page.post.cover_image"
         />
       </div>
@@ -31,11 +31,9 @@
 <script>
 import PostMeta from "~/components/PostMeta";
 import PostTags from "~/components/PostTags";
-import Author from "~/components/Author.vue";
 
 export default {
   components: {
-    Author,
     PostMeta,
     PostTags,
   },

@@ -11,7 +11,7 @@
         <v-tab>I+D / IA<v-icon>mdi-clipboard-search-outline</v-icon></v-tab>
         <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
         <v-tab-item class="pt-2">
-          <AboutMe/>
+          <AboutMe />
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
@@ -134,7 +134,7 @@ export default {
     Author,
     PostCard,
     Categories,
-    AboutMe
+    AboutMe,
   },
   metaInfo: {
     title: "Portfolio",

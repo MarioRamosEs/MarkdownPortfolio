@@ -1,9 +1,7 @@
 <template>
   <v-app>
-
     <v-main>
       <v-container fluid>
-
         <header class="header">
           <div class="header__left">
             <Logo v-if="showLogo" />
@@ -14,14 +12,12 @@
         </header>
 
         <slot />
-
       </v-container>
     </v-main>
 
-    <v-footer app v-if="false">
+    <v-footer v-if="false" app>
       Copyright © {{ new Date().getFullYear() }}.
     </v-footer>
-    
   </v-app>
 </template>
 
@@ -30,12 +26,12 @@ import Logo from "~/components/Logo.vue";
 import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
-  props: {
-    showLogo: { default: true },
-  },
   components: {
     Logo,
     ToggleTheme,
+  },
+  props: {
+    showLogo: { default: true },
   },
 };
 </script>
