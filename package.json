@@ -7,7 +7,9 @@
     "develop": "gridsome develop",
     "serve": "gridsome develop",
     "start": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.2",
@@ -21,7 +23,11 @@
     "vuetify": "^2.6.3"
   },
   "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.1",
     "node-sass": "^5.0.0",
+    "prettier": "2.6.2",
     "sass-loader": "^10.2.1"
   }
 }

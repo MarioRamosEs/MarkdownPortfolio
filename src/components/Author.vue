@@ -55,17 +55,16 @@
       </v-btn>
 
       <v-btn
-        v-if="false"
         outlined
         class="ma-2"
         color="primary"
         target="_blank"
-        href="CV_MarioRamos_2021.pdf"
+        href="CV_MarioRamos_2022.pdf"
       >
         <v-icon left>
-          mdi-pdf-box
+          mdi-file-pdf-box
         </v-icon>
-        CV 2021
+        CV 2022
       </v-btn>
     </v-row>
   </div>

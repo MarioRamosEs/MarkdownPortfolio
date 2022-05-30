@@ -7,5 +7,9 @@ node_modules2
 dist
 .env
 .env.*
-
+.idea
 .now
+.idea/.idea.MarkdownPortfolio.dir/.idea/encodings.xml
+.idea/.idea.MarkdownPortfolio.dir/.idea/indexLayout.xml
+.idea/.idea.MarkdownPortfolio.dir/.idea/projectSettingsUpdater.xml
+.idea/.idea.MarkdownPortfolio.dir/.idea/vcs.xml

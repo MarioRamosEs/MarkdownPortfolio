@@ -12,6 +12,10 @@
           Most of the projects I have worked for are private, but here I show
           some of the ones that are public.
         </p>
+        <p>
+          <v-icon>mdi-email</v-icon>
+          <a href="mailto:marioramosmontesinos@gmail.com" style="padding-left: 6px">marioramosmontesinos@gmail.com</a>
+        </p>
       </div>
     </div>
 
@@ -35,14 +39,21 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline">AXPE Consulting</v-card-title>
-              <v-card-subtitle>(feb. 2021 - nowadays)</v-card-subtitle>
+              <v-card-subtitle>(feb. 2021 - nowadays)
+                <v-chip-group>
+                  <dot-net-chip></dot-net-chip>
+                  <angular-chip></angular-chip>
+                  <azure-chip></azure-chip>
+                  <jasper-reports-chip></jasper-reports-chip>
+                </v-chip-group>
+              </v-card-subtitle>
               <v-card-text class="pl-0 pr-0">
                 <ul>
                   <li>
-                    Net Core, Angular
+                    Development of the Hipatia platform, a restart from scratch of the VHIR (Vall d'Hebron Research Institute) management platform adaptable to other clinical research centers.
                   </li>
                   <li>
-                    Development of the Hipatia platform, a restart from scratch of the VHIR (Vall d'Hebron Research Institute) management platform adaptable to other clinical research centers.
+                    Decision making and quality manager on the technical part
                   </li>
                 </ul>
               </v-card-text>
@@ -56,12 +67,15 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline">AT Infoserveis</v-card-title>
-              <v-card-subtitle>(sept. 2018 - dec. 2020)</v-card-subtitle>
+              <v-card-subtitle>(sept. 2018 - dec. 2020)
+                <v-chip-group>
+                  <dot-net-chip></dot-net-chip>
+                  <vue-chip></vue-chip>
+                  <react-native-chip></react-native-chip>
+                </v-chip-group>
+              </v-card-subtitle>
               <v-card-text class="pl-0 pr-0">
                 <ul>
-                  <li>
-                    Vue.js, React Native and .NET
-                  </li>
                   <li>
                     Development of customized platforms. Websites and
                     cross-platform apps.
@@ -273,7 +287,28 @@
 </template>
 ˆ
 <script>
-export default {};
+import AzureChip
+  from "./TechChips/AzureChip";
+import DotNetChip
+  from "./TechChips/DotNetChip";
+import AngularChip
+  from "./TechChips/AngularChip";
+import VueChip
+  from "./TechChips/VueChip";
+import ReactNativeChip
+  from "./TechChips/ReactNativeChip";
+import JasperReportsChip
+  from "./TechChips/JasperReportsChip";
+export default {
+  components: {
+    JasperReportsChip,
+    ReactNativeChip,
+    VueChip,
+    AngularChip,
+    DotNetChip,
+    AzureChip
+  }
+};
 </script>
 
 <style lang="scss">
