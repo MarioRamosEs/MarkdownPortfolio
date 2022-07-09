@@ -3,6 +3,8 @@
     <!-- Author intro -->
     <Author :show-title="true" />
 
+    <br>
+    <br>
     <div class="posts">
       <v-tabs centered icons-and-text show-arrows>
         <v-tab>About me<v-icon>mdi-account</v-icon></v-tab>

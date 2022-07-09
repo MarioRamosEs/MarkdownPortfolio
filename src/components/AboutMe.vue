@@ -10,7 +10,7 @@
         </p>
         <p>
           Most of the projects I have worked for are private, but here I show
-          some of the ones that are public.
+          some of the ones that are public. (check the tabs above! ⬆️)
         </p>
         <p>
           <v-icon>mdi-email</v-icon>
@@ -111,7 +111,13 @@
               <v-card-title class="headline"
                 >Serendipity Learning Services</v-card-title
               >
-              <v-card-subtitle>(sept. 2015 - jun. 2018)</v-card-subtitle>
+              <v-card-subtitle>(sept. 2015 - jun. 2018)
+                <v-chip-group>
+                  <unity-chip></unity-chip>
+                  <arduino-chip></arduino-chip>
+                  <processing-chip></processing-chip>
+                </v-chip-group>
+              </v-card-subtitle>
               <v-card-text>
                 <ul>
                   <li>
@@ -332,8 +338,17 @@ import AngularChip from "./TechChips/AngularChip";
 import VueChip from "./TechChips/VueChip";
 import ReactNativeChip from "./TechChips/ReactNativeChip";
 import JasperReportsChip from "./TechChips/JasperReportsChip";
+import UnityChip
+  from "./TechChips/UnityChip";
+import ArduinoChip
+  from "./TechChips/ArduinoChip";
+import ProcessingChip
+  from "./TechChips/ProcessingChip";
 export default {
   components: {
+    ProcessingChip,
+    ArduinoChip,
+    UnityChip,
     JasperReportsChip,
     ReactNativeChip,
     VueChip,
