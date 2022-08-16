@@ -19,7 +19,8 @@ The Trace Logistics application allows its distributors to:
 
 Made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
-[Download at Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.tracelogistics&hl=es_419)
+[Download at Google Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.tracelogistics2)
+
 [Download from Apple Store](https://apps.apple.com/us/app/trace-logistics/id1483068455?l=es&ls=1)
 
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019

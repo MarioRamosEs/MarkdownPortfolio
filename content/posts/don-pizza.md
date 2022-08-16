@@ -18,6 +18,7 @@ Don Pizza Orders allows its clients to:
 Made with [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/) and [Native Base](https://nativebase.io/)
 
 [Download at Play Store](https://play.google.com/store/apps/details?id=com.atinfoserveis.donpizza)
+
 [Download at App Store](https://apps.apple.com/es/app/don-pizza-orders/id1455850192)
 
 Copyright [AT Infoserveis](https://www.atinfoserveis.com/web/) 2019
