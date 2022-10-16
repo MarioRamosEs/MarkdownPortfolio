@@ -18,7 +18,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.23",
     "i": "^0.3.7",
-    "npm": "^7.24.2",
+    "npm": "^8.11.0",
     "vue-disqus": "^4.0.1",
     "vuetify": "^2.6.6"
   },
