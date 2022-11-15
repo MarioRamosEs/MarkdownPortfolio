@@ -2,7 +2,7 @@
 title: Serverless Community Twitter Bot
 date: 2022-10-25
 published: true
-tags: ["Personal Project", "Azure", ".NET", "Web"]
+tags: ["Personal Project", "Azure", ".NET"]
 series: false
 cover_image: ./images/ServerlessTwitterBotHeader.png
 canonical_url: false

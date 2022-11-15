@@ -311,10 +311,10 @@
             <v-card class="pa-2" outlined tile>
               <h5>Collaborations</h5>
               <ul>
-                <li>
+<!--                <li>
                   <a href="https://spacetaco.studio/">Space Taco Studio</a>
                 </li>
-                <p>Game developer Studio</p>
+                <p>Game developer Studio</p>-->
                 <li>
                   <a
                     href="https://www.amazon.es/Programaci%C3%B3n-Visual-Scratch-Marco-Rodr%C3%ADguez/dp/846176899X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=programacion+visual+con+scratch&qid=1608118096&sr=8-1"

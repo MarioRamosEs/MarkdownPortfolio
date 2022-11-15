@@ -8,12 +8,20 @@
     <div class="posts">
       <v-tabs centered icons-and-text show-arrows>
         <v-tab>About me<v-icon>mdi-account</v-icon></v-tab>
+        <v-tab>Azure<v-icon>mdi-microsoft-azure</v-icon></v-tab>
         <v-tab>Web<v-icon>mdi-web</v-icon></v-tab>
         <v-tab>Apps<v-icon>mdi-cellphone-arrow-down</v-icon></v-tab>
         <v-tab>I+D / IA<v-icon>mdi-clipboard-search-outline</v-icon></v-tab>
         <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
         <v-tab-item class="pt-2">
           <AboutMe />
+        </v-tab-item>
+        <v-tab-item class="pt-2">
+          <PostCard
+            v-for="edge in $page.azure.edges"
+            :key="edge.node.id"
+            :post="edge.node"
+          />
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
@@ -50,6 +58,24 @@
 
 <page-query>
 query {
+  azure: allPost(filter: { published: { eq: true }, tags: { contains: "Azure" }}) {
+    edges {
+      node {
+        id
+        title
+        date (format: "D. MMMM YYYY")
+        timeToRead
+        description
+        cover_image (width: 770, height: 380, blur: 10)
+        path
+        tags {
+        id
+        title
+        path
+        }
+      }
+    }
+  },
   web: allPost(filter: { published: { eq: true }, tags: { contains: "Web" }}) {
     edges {
       node {
