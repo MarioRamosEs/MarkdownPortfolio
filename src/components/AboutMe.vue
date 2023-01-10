@@ -35,6 +35,29 @@
       <div class="post-card__content">
         <h2 class="post-card__title">Work experience</h2>
         <v-timeline dense>
+
+<v-timeline-item>
+            <template #icon>
+              <v-avatar>
+                <img src="/images/encamina_logo.jpeg" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline">ENCAMINA</v-card-title>
+              <v-card-subtitle
+                >(jun. 2023 - nowadays)
+                <v-chip-group>
+                  <dot-net-chip></dot-net-chip>
+                  <azure-chip></azure-chip>
+                </v-chip-group>
+              </v-card-subtitle>
+              <v-card-text class="pl-0 pr-0">
+                <ul>
+                </ul>
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+
           <v-timeline-item>
             <template #icon>
               <v-avatar>
@@ -44,7 +67,7 @@
             <v-card class="elevation-2">
               <v-card-title class="headline">AXPE Consulting</v-card-title>
               <v-card-subtitle
-                >(feb. 2021 - nowadays)
+                >(feb. 2021 - jun. 2023)
                 <v-chip-group>
                   <dot-net-chip></dot-net-chip>
                   <angular-chip></angular-chip>
