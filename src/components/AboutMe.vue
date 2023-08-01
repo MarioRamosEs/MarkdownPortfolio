@@ -49,10 +49,23 @@
                 <v-chip-group>
                   <dot-net-chip></dot-net-chip>
                   <azure-chip></azure-chip>
+                  <open-ai-chip></open-ai-chip>
+                  <semantic-kernel-chip></semantic-kernel-chip>
+                  <langchain-chip></langchain-chip>
                 </v-chip-group>
               </v-card-subtitle>
               <v-card-text class="pl-0 pr-0">
                 <ul>
+                  <li>
+                    Research and development of solutions using Azure OpenAI and GPT. Involved in projects such as questions and answers about documents, real-time summarization, 
+                    execution of actions in a semantic way, among others.
+                  </li>
+                  <li>
+                    Development of chatbots with Azure Bot Service and Azure Cognitive Services.
+                  </li>
+                  <li>
+                    Full-stack development of custom applications for large companies.
+                  </li>
                 </ul>
               </v-card-text>
             </v-card>
@@ -361,12 +374,13 @@ import AngularChip from "./TechChips/AngularChip";
 import VueChip from "./TechChips/VueChip";
 import ReactNativeChip from "./TechChips/ReactNativeChip";
 import JasperReportsChip from "./TechChips/JasperReportsChip";
-import UnityChip
-  from "./TechChips/UnityChip";
-import ArduinoChip
-  from "./TechChips/ArduinoChip";
-import ProcessingChip
-  from "./TechChips/ProcessingChip";
+import UnityChip from "./TechChips/UnityChip";
+import ArduinoChip from "./TechChips/ArduinoChip";
+import ProcessingChip from "./TechChips/ProcessingChip";
+import OpenAiChip from "./TechChips/OpenAiChip";
+import LangchainChip from "./TechChips/LangchainChip";
+import SemanticKernelChip from "./TechChips/SemanticKernelChip";
+
 export default {
   components: {
     ProcessingChip,
@@ -378,6 +392,9 @@ export default {
     AngularChip,
     DotNetChip,
     AzureChip,
+    OpenAiChip,
+    LangchainChip,
+    SemanticKernelChip,
   },
 };
 </script>
