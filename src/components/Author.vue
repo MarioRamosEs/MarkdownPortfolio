@@ -3,16 +3,16 @@
     <g-image
       alt="Author image"
       class="author__image"
-      src="~/assets/images/mramos-azul.jpg"
-      width="180"
-      height="180"
+      src="~/assets/images/author.jpg"
+      width="200"
+      height="200"
     />
 
     <h1 v-if="showTitle" class="author__site-title">
       {{ $static.metadata.siteName }}
     </h1>
 
-    <p class="author__intro">FullStack Developer in Barcelona</p>
+    <p class="author__intro">AI Azure Developer in Barcelona</p>
 
     <v-row justify="center" align="center" style="padding: 10px">
       <v-btn

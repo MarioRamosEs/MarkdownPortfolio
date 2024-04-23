@@ -43,7 +43,7 @@
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline">ENCAMINA</v-card-title>
+              <v-card-title class="headline">ENCAMINA - AI Cloud Solutions Dev</v-card-title>
               <v-card-subtitle
                 >(jun. 2023 - nowadays)
                 <v-chip-group>
@@ -78,7 +78,7 @@
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline">AXPE Consulting</v-card-title>
+              <v-card-title class="headline">AXPE Consulting - Fullstack Dev</v-card-title>
               <v-card-subtitle
                 >(feb. 2021 - jun. 2023)
                 <v-chip-group>
@@ -109,7 +109,7 @@
               </v-avatar>
             </template>
             <v-card class="elevation-2">
-              <v-card-title class="headline">AT Infoserveis</v-card-title>
+              <v-card-title class="headline">AT Infoserveis - Fullstack Dev</v-card-title>
               <v-card-subtitle
                 >(sept. 2018 - dec. 2020)
                 <v-chip-group>
@@ -145,7 +145,7 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline"
-                >Serendipity Learning Services</v-card-title
+                >Serendipity Learning Services - Educational coordinator</v-card-title
               >
               <v-card-subtitle>(sept. 2015 - jun. 2018)
                 <v-chip-group>
