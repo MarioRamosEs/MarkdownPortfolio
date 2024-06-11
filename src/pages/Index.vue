@@ -10,8 +10,8 @@
         <v-tab>About me<v-icon>mdi-account</v-icon></v-tab>
         <v-tab>Azure<v-icon>mdi-microsoft-azure</v-icon></v-tab>
         <v-tab>Web<v-icon>mdi-web</v-icon></v-tab>
+        <v-tab>AI<v-icon>mdi-robot-outline</v-icon></v-tab>
         <v-tab>Apps<v-icon>mdi-cellphone-arrow-down</v-icon></v-tab>
-        <v-tab>I+D / IA<v-icon>mdi-clipboard-search-outline</v-icon></v-tab>
         <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
         <v-tab-item class="pt-2">
           <AboutMe />
@@ -32,14 +32,14 @@
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
-            v-for="edge in $page.app.edges"
+            v-for="edge in $page.ai.edges"
             :key="edge.node.id"
             :post="edge.node"
           />
         </v-tab-item>
         <v-tab-item class="pt-2">
           <PostCard
-            v-for="edge in $page.others.edges"
+            v-for="edge in $page.app.edges"
             :key="edge.node.id"
             :post="edge.node"
           />
@@ -130,7 +130,7 @@ query {
       }
     }
   },
-  others: allPost(filter: { published: { eq: true }, tags: { contains: "I+D" }}) {
+  ai: allPost(filter: { published: { eq: true }, tags: { contains: "AI" }}) {
     edges {
       node {
         id

@@ -2,7 +2,7 @@
 title: Tic Tac Toe Minimax
 date: 2017-01-07
 published: true
-tags: ["I+D", "Student Project"]
+tags: ["I+D", "AI", "Student Project"]
 series: false
 cover_image: ./images/(6).png
 canonical_url: false

@@ -1,6 +1,9 @@
 <template>
   <div class="categories">
     <h2>Portfolio</h2>
+    <a href="tag/AI/">
+      <button class="glow-on-hover" type="button">AI</button>
+    </a>
     <a href="tag/App/">
       <button class="glow-on-hover" type="button">Apps</button>
     </a>
@@ -9,9 +12,6 @@
     </a>
     <a href="tag/Game/">
       <button class="glow-on-hover" type="button">Games</button>
-    </a>
-    <a href="tag/I+D/">
-      <button class="glow-on-hover" type="button">AI / I+D</button>
     </a>
   </div>
 </template>

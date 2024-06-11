@@ -2,7 +2,7 @@
 title: A* algorithm with simple heuristics
 date: 2019-01-08
 published: true
-tags: ["I+D", "Student Project"]
+tags: ["I+D", "AI", "Student Project"]
 series: false
 cover_image: ./images/(8).png
 canonical_url: false
