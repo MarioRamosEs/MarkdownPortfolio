@@ -4,7 +4,7 @@
       <div class="post-card__content">
         <h2 class="post-card__title">About Me</h2>
         <p>
-          FullStack Developer focused in .NET Core, Azure and Angular/Vue.
+          FullStack Developer focused in .NET Core, Azure and Generative AI.
           Although I also like to program video games and other things in my
           spare time. Eager to learn more every day. 👨‍💻
         </p>
@@ -25,9 +25,9 @@
 
     <div class="post-card content-box">
       <div class="post-card__content">
-        <h2 class="post-card__title">Tech Stacks</h2>
+        <h2 class="post-card__title">Tech Stack</h2>
         <p v-if="false" class="post-card__description">HOLA</p>
-        <img src="/images/stacks.png" alt="Tech Stacks" />
+        <img src="/images/stack.png" alt="Tech Stack" />
       </div>
     </div>
 
