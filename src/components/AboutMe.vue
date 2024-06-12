@@ -145,7 +145,7 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline"
-                >Serendipity Learning Services - Educational coordinator</v-card-title
+                >Serendipity Learning Services - STEM Educational coordinator</v-card-title
               >
               <v-card-subtitle>(sept. 2015 - jun. 2018)
                 <v-chip-group>
