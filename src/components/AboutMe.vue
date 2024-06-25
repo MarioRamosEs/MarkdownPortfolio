@@ -175,6 +175,26 @@
           <v-timeline-item>
             <template #icon>
               <v-avatar>
+                <img src="/images/microsoft-certified-associate-badge.svg" />
+              </v-avatar>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline"
+                >Microsoft Certified: Azure AI Engineer Associate</v-card-title
+              >
+              <v-card-subtitle
+                >Microsoft - 2024 -
+                <a
+                  href="https://learn.microsoft.com/es-es/users/marioramos-7745/credentials/certification/azure-ai-engineer"
+                  target="_blank"
+                  >View credential</a
+                ></v-card-subtitle
+              >
+            </v-card>
+          </v-timeline-item>
+          <v-timeline-item>
+            <template #icon>
+              <v-avatar>
                 <img src="/images/azure-developer-associate-600x600.png" />
               </v-avatar>
             </template>
@@ -185,7 +205,7 @@
               <v-card-subtitle
                 >Microsoft - 2022 -
                 <a
-                  href="https://www.credly.com/badges/58b17f94-992e-488f-b52f-e4f465fbd700/public_url"
+                  href="https://learn.microsoft.com/es-es/users/marioramos-7745/credentials/certification/azure-developer"
                   target="_blank"
                   >View credential</a
                 ></v-card-subtitle
