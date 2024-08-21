@@ -231,8 +231,7 @@
                 >Computer Engineering Degree</v-card-title
               >
               <v-card-subtitle
-                >Universitat Oberta de Catalunya UOC (2018 -
-                nowadays)</v-card-subtitle
+                >Universitat Oberta de Catalunya UOC</v-card-subtitle
               >
             </v-card>
           </v-timeline-item>
@@ -248,7 +247,7 @@
                 Development</v-card-title
               >
               <v-card-subtitle
-                >Escola Pia Santana (2016 - 2018)</v-card-subtitle
+                >Escola Pia Santana</v-card-subtitle
               >
             </v-card>
           </v-timeline-item>
@@ -262,7 +261,7 @@
               <v-card-title class="headline"
                 >Technological Baccalaureate</v-card-title
               >
-              <v-card-subtitle>IES Miquel Biada (2014 - 2016)</v-card-subtitle>
+              <v-card-subtitle>IES Miquel Biada</v-card-subtitle>
             </v-card>
           </v-timeline-item>
           <v-timeline-item>
@@ -273,7 +272,7 @@
             </template>
             <v-card class="elevation-2">
               <v-card-title class="headline">S.T.E.M. Academy</v-card-title>
-              <v-card-subtitle>MARF Informática (2010 - 2015)</v-card-subtitle>
+              <v-card-subtitle>MARF Informática</v-card-subtitle>
             </v-card>
           </v-timeline-item>
         </v-timeline>
@@ -301,7 +300,7 @@
                 <v-progress-linear
                   color="light-blue"
                   height="25"
-                  value="70"
+                  value="75"
                   striped
                 >
                   <template #default="{}">
@@ -313,7 +312,7 @@
                 <v-progress-linear
                   color="light-blue"
                   height="25"
-                  value="50"
+                  value="60"
                   striped
                 >
                   <template #default="{}">
