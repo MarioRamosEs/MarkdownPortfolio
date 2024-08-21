@@ -212,46 +212,6 @@
               >
             </v-card>
           </v-timeline-item>
-          <v-timeline-item>
-            <template #icon>
-              <v-avatar>
-                <img src="/images/azure-fundamentals-300x300.png" />
-              </v-avatar>
-            </template>
-            <v-card class="elevation-2">
-              <v-card-title class="headline"
-                >Microsoft Certified: Azure Fundamentals</v-card-title
-              >
-              <v-card-subtitle
-                >Microsoft - 2021 -
-                <a
-                  href="https://www.credly.com/badges/a554b5ce-0044-42dd-b171-59e8703b05c5/public_url"
-                  target="_blank"
-                  >View credential</a
-                ></v-card-subtitle
-              >
-            </v-card>
-          </v-timeline-item>
-          <v-timeline-item>
-            <template #icon>
-              <v-avatar>
-                <img src="/images/udemy.jfif" />
-              </v-avatar>
-            </template>
-            <v-card class="elevation-2">
-              <v-card-title class="headline"
-                >Vuejs 2 + Vuex with TypeScript
-              </v-card-title>
-              <v-card-subtitle
-                >Udemy - 2019 -
-                <a
-                  href="http://ude.my/UC-aba96422-c2f5-4e67-9a2c-570212e7e499"
-                  target="_blank"
-                  >View credential</a
-                ></v-card-subtitle
-              >
-            </v-card>
-          </v-timeline-item>
         </v-timeline>
       </div>
     </div>
