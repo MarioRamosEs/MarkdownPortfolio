@@ -8,11 +8,11 @@
     <div class="posts">
       <v-tabs centered icons-and-text show-arrows>
         <v-tab>About me<v-icon>mdi-account</v-icon></v-tab>
-        <v-tab>Azure<v-icon>mdi-microsoft-azure</v-icon></v-tab>
+        <!-- <v-tab>Azure<v-icon>mdi-microsoft-azure</v-icon></v-tab>
         <v-tab>Web<v-icon>mdi-web</v-icon></v-tab>
         <v-tab>AI<v-icon>mdi-robot-outline</v-icon></v-tab>
         <v-tab>Apps<v-icon>mdi-cellphone-arrow-down</v-icon></v-tab>
-        <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab>
+        <v-tab>Games<v-icon>mdi-gamepad-square</v-icon></v-tab> -->
         <v-tab-item class="pt-2">
           <AboutMe />
         </v-tab-item>
